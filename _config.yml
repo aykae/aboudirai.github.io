@@ -1,5 +1,7 @@
 permalink: /:title/
 
+url: "http://aboudirai.com"
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
