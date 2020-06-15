@@ -44,12 +44,14 @@ body {
 .links i {
     color: #8e8d8b;
     opacity: 0.75;
-    padding: 10px 30px 0 30px;
+    padding: 10px 20px 0 20px;
+}
+
+.links ul {
+    padding: 0px;
 }
 
 .links a {
     text-decoration: none;
     margin-bottom: 80px;
 }
-
-
