@@ -1,6 +1,6 @@
 permalink: /:title/
 
-url: "http://aboudirai.com"
+url: "https://aykae.com"
 
 plugins:
   - jekyll-feed
