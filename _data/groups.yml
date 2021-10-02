@@ -1,0 +1,43 @@
+- name: vfx / graphics / art
+  data:
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+- name: software
+  data:
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+- name: my company
+  data:
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+- name: hardware hacks
+  data:
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
+
+    - title: Aang
+      desc: Blah, Blah, Blah
+      img: pfp.jpg
