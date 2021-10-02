@@ -1,50 +1,69 @@
 body {
-    background-color: #e0e0df;
+    background-color: #e6e6e4;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .floater {
-    font-family: "Righteous-Regular";
-    color: #8e8d8b;
-    opacity: 0.75;
-    font-size: 100px;
+    font-family: "PublicSans-Regular";
+    color: #000000;
+    opacity: 1.0;
+    font-size: 80px;
     text-align: center;
     position: relative;
-    animation: float 5s ease-in-out infinite;    
+    /*animation: float 5s ease-in-out infinite;*/
+}
+
+.header1 {
+    font-family: "PublicSans-Regular";
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    /*animation: float1 5s ease-in-out infinite;*/
+    margin: 0;
+    padding: 0;
 }
 
 .name {
-    margin-top: 2%;
+    margin-top: 3%;
     margin-bottom: 0px;
 }
 
-@font-face{
-    font-family: "Righteous-Regular";
-    src: url("../fonts/Righteous-Regular.ttf");
+.hobby {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
 }
 
-@keyframes float {
-    0% {
-        transform: translatey(0px);
-        opacity: 4;
-    }
-    50% {
-        transform: translatey(35px);
-        opacity: .75;
-    }
-    100% {
-        transform: translatey(0px);
-        opacity: 4; 
-    }
+.hobby:hover {
+    transform: scale(1.01);
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+@font-face{
+    font-family: "PublicSans-Regular";
+    src: url("../fonts/PublicSans-Regular.ttf");
 }
 
 /*.grow { transition: all .2s ease-in-out; }*/
-.grow:hover { transform: scale(1.1);}
+.grow:hover { 
+    transform: scale(1.1);
+    opacity: 0.75;
+}
 
 .links i {
-    color: #8e8d8b;
-    opacity: 0.75;
-    padding: 10px 20px 0 20px;
+    color: #000000;
+    opacity: 1.0;
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+}
+
+.linklist {
+    margin: 0;
+    transform: scale(0.8);
 }
 
 .links ul {
