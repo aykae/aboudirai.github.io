@@ -11,7 +11,7 @@ layout: base
     <ul class="linklist">
         {% for link in site.data.links %}
         <a href="{{ link.url }}" target="_blank">
-            <i class="{{ link.icon }} fa-3x grow"></i>
+            <i class="{{ link.icon }} fa-3x icon"></i>
         </a>
         {% endfor %}
     </ul>
@@ -22,7 +22,7 @@ layout: base
     <ul class="linklist">
         {% for link in site.data.navlinks %}
         <a href="#{{ link.name | replace: " ", "-" }}">
-            <i class="{{ link.icon }} fa-3x grow"></i>
+            <i class="{{ link.icon }} fa-3x icon"></i>
         </a>
         {% endfor %}
     </ul>
