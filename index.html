@@ -11,22 +11,33 @@ layout: base
     <ul class="linklist">
         {% for link in site.data.links %}
         <a href="{{ link.url }}" target="_blank">
-            <i class="fab {{ link.icon }} fa-3x grow"></i>
+            <i class="{{ link.icon }} fa-3x grow"></i>
         </a>
         {% endfor %}
     </ul>
 </div>
 
-<!-- Generate all content groups --> 
+<!-- Navigation Icons -->
+<div class="links">
+    <ul class="linklist">
+        {% for link in site.data.navlinks %}
+        <a href="#{{ link.name | replace: " ", "-" }}">
+            <i class="{{ link.icon }} fa-3x grow"></i>
+        </a>
+        {% endfor %}
+    </ul>
+</div>
+
+<!-- Content Groups --> 
 {% for group in site.data.groups %}
-<section class="group" style="background-color: #ffffff;">
+<section class="group" id="{{ group.name | replace: " ", "-" }}" style="background-color: #ffffff;">
     <div class="header1">
         <p class="hobby">{{ group.name }}</p>
     </div>
     <ul class="list-group list-group-horizontal">
         {% for item in group.data %}
         <li class="list-group-item">
-            <div class="card shadow-lg" style="width: 18rem; height: 20rem;">
+            <div class="card" style="width: 18rem; height: 20rem;">
                 <img src="/assets/images/{{ item.img }}" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title">{{ item.title }}</h5>
