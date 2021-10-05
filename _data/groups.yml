@@ -1,4 +1,5 @@
 - name: vfx / graphics / art
+  icon: fas fa-paint-brush
   data:
     - title: Aang
       desc: Blah, Blah, Blah
@@ -25,12 +26,14 @@
       img: pfp.jpg
 
 - name: software
+  icon: fas fa-code
   data:
     - title: Aang
       desc: Blah, Blah, Blah
       img: pfp.jpg
 
 - name: my company
+  icon: fas fa-users
   data:
     - title: Aang
       desc: Blah, Blah, Blah
@@ -41,6 +44,7 @@
       img: pfp.jpg
 
 - name: hardware hacks
+  icon: fas fa-tools
   data:
     - title: Aang
       desc: Blah, Blah, Blah

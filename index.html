@@ -1,12 +1,13 @@
 ---
 layout: base
 ---
+<div id="network">
+</div>
+
 <div class="floater">
     <p class="name">ak rai</p>
 </div>
 
-<!-- add paint brush for art, something for projects, something for blog -->
-<!-- when icon hovered over, fade in a centered description" -->
 <div class="links">
     <ul class="linklist">
         {% for link in site.data.links %}
@@ -20,9 +21,9 @@ layout: base
 <!-- Navigation Icons -->
 <div class="links">
     <ul class="linklist">
-        {% for link in site.data.navlinks %}
-        <a href="#{{ link.name | replace: " ", "-" }}">
-            <i class="{{ link.icon }} fa-3x icon"></i>
+        {% for group in site.data.groups %}
+        <a href="#{{ group.name | replace: " ", "-" }}">
+            <i class="{{ group.icon }} fa-3x icon"></i>
         </a>
         {% endfor %}
     </ul>
@@ -31,8 +32,9 @@ layout: base
 <!-- Content Groups --> 
 {% for group in site.data.groups %}
 <section class="group" id="{{ group.name | replace: " ", "-" }}" style="background-color: #ffffff;">
-    <div class="header1">
-        <p class="hobby">{{ group.name }}</p>
+    <div class="group-header">
+        <i class="{{ group.icon }} fa-sm icon"></i>
+        <p class="hobby">  {{ group.name }}</p>
     </div>
     <ul class="list-group list-group-horizontal">
         {% for item in group.data %}
