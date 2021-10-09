@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<div class="floater">
+    <p class="name">ak rai</p>
+</div>
+
+<div class="links">
+    <ul class="linklist">
+        {% for link in site.data.links %}
+        <a href="{{ link.url }}" target="_blank">
+            <i class="{{ link.icon }} fa-3x icon"></i>
+        </a>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="back"> <!-- change class -->
+    <a href="/">
+        <i class="fas fa-caret-left fa-sm"></i>
+        <p> go back</p> <!-- template to go back to correct section -->
+    </a>
+</div>

@@ -33,11 +33,12 @@ layout: base
 {% for group in site.data.groups %}
 <section class="group" id="{{ group.name | replace: " ", "-" }}" style="background-color: #ffffff;">
     <div class="group-header">
-        <i class="{{ group.icon }} fa-sm icon"></i>
+        <i class="{{ group.icon }} fa-sm"></i>
         <p class="hobby">  {{ group.name }}</p>
     </div>
     <ul class="list-group list-group-horizontal">
         {% for item in group.data %}
+        <a href="/project">
         <li class="list-group-item">
             <div class="card" style="width: 18rem; height: 20rem;">
                 <img src="/assets/images/{{ item.img }}" class="card-img-top" alt="...">
@@ -47,6 +48,7 @@ layout: base
                 </div>
             </div>
         </li>
+        </a>
         {% endfor %}
     </ul>
 </section>

@@ -81,6 +81,15 @@ body {
 /* CONTENT */
 /* *************** */
 
+.list-group a {
+    color: inherit;
+}
+
+.list-group a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 .group-header {
     font-family: "PublicSans-Regular";
     color: #000000;
@@ -123,13 +132,14 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     display: inline-block;
+    cursor: default;
 }
 
-.hobby:hover {
+/* .hobby:hover {
     transform: scale(1.01);
     opacity: 0.75;
     cursor: pointer;
-}
+} */
 
 .card-img-top {
     height: 10rem;
@@ -157,4 +167,25 @@ body {
         width: 95%;
         height: auto;
     }
+}
+
+/* *************** */
+/* PROJECT */
+/* *************** */
+
+.back { transition: all .1s ease-in-out; }
+.back a {
+    color: inherit;
+    display: block;
+    text-align: left;
+}
+
+.back a:hover {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.back p {
+    display: inline;
 }
