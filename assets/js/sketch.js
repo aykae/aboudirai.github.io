@@ -30,8 +30,8 @@ function setup() {
 
 function draw() {
   background(255)
-  stroke(0)
-  fill(0)
+  stroke(200)
+  fill(200)
 
   drawNodes()
   strokeWeight(LINEWEIGHT)
@@ -48,7 +48,6 @@ function drawNodes() {
 function drawLinks() {
   for (i = 0; i < NODECOUNT; i++) {
     for (j = i+1; j < NODECOUNT; j++) {
-      stroke(0)
       d = dist(pos[i][0], pos[i][1], pos[j][0], pos[j][1])
       if (i!=j && d < MAXLINKLEN) {
         // if (d >= MAXLINKLEN/3) {
