@@ -3,7 +3,7 @@ layout: base
 ---
 
 <div class="floater">
-    <p class="name">ak rai</p>
+    <p class="name">akr</p>
 </div>
 
 <div class="links">
@@ -16,9 +16,22 @@ layout: base
     </ul>
 </div>
 
-<div class="back"> <!-- change class -->
-    <a href="/">
-        <i class="fas fa-caret-left fa-sm"></i>
-        <p> go back</p> <!-- template to go back to correct section -->
-    </a>
+<div class="project">
+    <div class="back"> <!-- change class -->
+        <a href="/">
+            <i class="fas fa-caret-left fa-2x"></i>
+            <p> back</p> <!-- template to go back to correct section -->
+        </a>
+    </div>
+
+    <div class="project-title">
+        <p>{{ site.data.projects.motherplant.title }}</p>
+    </div>
+    <div class="project-img">
+         
+        <img src="/assets/images/{{ site.data.projects.motherplant.media }}" alt="...">
+    </div>
+    <div class="project-body">
+        <p>{{ site.data.projects.motherplant.body }}</p>
+    </div>
 </div>

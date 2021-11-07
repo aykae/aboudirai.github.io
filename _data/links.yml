@@ -2,14 +2,14 @@
   icon: fab fa-linkedin
   url: https://linkedin.com/in/aboudi-rai-0a77a0193/ 
 
-- name: GitHub
-  icon: fab fa-github
-  url: https://github.com/aykae/
-
 - name: YouTube
   icon: fab fa-youtube
   url: https://www.youtube.com/channel/UCfOdQIHdbCeUkJRqjrrabmQ/
 
-- name: LinkedIn
-  icon: fab fa-linkedin
-  url: https://linkedin.com/in/aboudi-rai-0a77a0193/ 
+- name: GitHub
+  icon: fab fa-github
+  url: https://github.com/aykae/
+
+- name: Email
+  icon: fas fa-envelope
+  url: mailto:hi@aykae.com

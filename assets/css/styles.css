@@ -179,6 +179,7 @@ body {
     color: inherit;
     display: block;
     text-align: left;
+    padding-left: 20%;
 }
 
 .back a:hover {
@@ -189,4 +190,5 @@ body {
 
 .back p {
     display: inline;
+    font-size: 30px;
 }
