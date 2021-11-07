@@ -29,9 +29,9 @@ function setup() {
 }
 
 function draw() {
-  background(255)
-  stroke(200)
-  fill(200)
+  background(0)
+  stroke(100)
+  fill(100)
 
   drawNodes()
   strokeWeight(LINEWEIGHT)
