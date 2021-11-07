@@ -127,6 +127,7 @@ i {
 }
 
 .card {
+    border: none;
    /*box-shadow: 0 1rem 3rem rgba(255,255,255,.3);*/
 }
 
@@ -136,7 +137,7 @@ i {
 
 .card { transition: all .1s ease-in-out; }
 .card:hover {
-   box-shadow: 0 1rem 3rem rgba(255,255,255,.2);
+   box-shadow: 0 1rem 3rem rgba(255,255,255,.3);
 }
 
 
