@@ -30,8 +30,8 @@ function setup() {
 
 function draw() {
   clear()
-  stroke(200)
-  fill(200)
+  stroke(30)
+  fill(30)
 
   drawNodes()
   strokeWeight(LINEWEIGHT)
