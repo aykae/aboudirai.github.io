@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous-Regular.ttf");
+}
+
 body {
     background-color: #000000;
     overflow: hidden;
@@ -16,7 +21,7 @@ body {
     font-family: "Righteous-Regular";
     color: #8e8d8b;
     opacity: 0.75;
-    font-size: 100px;
+    font-size: 110px;
     text-align: center;
     position: relative;
     animation: float 5s ease-in-out infinite;    
@@ -24,13 +29,9 @@ body {
 
 .name {
     margin-top: 10%;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
-@font-face{
-    font-family: "Righteous-Regular";
-    src: url("../fonts/Righteous-Regular.ttf");
-}
 
 @keyframes float {
     0% {
@@ -50,7 +51,7 @@ body {
 .links i {
     color: #8e8d8b;
     opacity: 0.75;
-    padding: 10px 20px 0 20px;
+    padding: 10px 15px 0 15px;
 }
 
 .links ul {
