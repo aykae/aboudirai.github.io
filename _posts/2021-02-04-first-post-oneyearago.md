@@ -3,7 +3,7 @@ layout: post
 title: first post, one year ago...
 author: aykae
 published: true
-categories: misc
+tags: misc
 ---
 This is an exemplary block of text that should represent the text of a blog post. This could potentially be the opening paragraph to a very extensive, comprehensive, well-written post about some random thing that I'm particularly interested in at the time of writing.
 

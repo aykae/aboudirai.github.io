@@ -33,8 +33,3 @@ This issue is that I have nothing to write of at the moment--writer's block, one
 This issue is that I have nothing to write of at the moment--writer's block, one could say. That's mostly due to the fact that I'm more concerned about getting the format of this blog done rather than writing a good post.
 This issue is that I have nothing to write of at the moment--writer's block, one could say. That's mostly due to the fact that I'm more concerned about getting the format of this blog done rather than writing a good post.
 This issue is that I have nothing to write of at the moment--writer's block, one could say. That's mostly due to the fact that I'm more concerned about getting the format of this blog done rather than writing a good post.
-
-{% highlight python %}
-def foo():
-  return 10
-{% endhighlight %}
