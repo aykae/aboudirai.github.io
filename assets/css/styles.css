@@ -2,12 +2,21 @@
     font-family: "Righteous-Regular";
     src: url("../fonts/Righteous-Regular.ttf");
 }
-
-body {
-    background-color: #000000;
-    overflow: hidden;
-    text-align: center;
+@font-face{
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato/Lato-Regular.ttf");
 }
+
+html, body {
+    background-color: #000000;
+    color: #8e8d8b;
+    overflow-x: hidden;
+
+    height:100%;
+    width:100%;
+    margin:0;
+}
+
 
 #network {
     position: absolute;
@@ -15,6 +24,17 @@ body {
     height: 100%;
     top: 0%;
     z-index: -1;
+}
+
+/*******************************/
+/*home page*/
+.home-page {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #8e8d8b;
+    margin: 0;
+    height: 100%;
 }
 
 .floater {
@@ -63,6 +83,47 @@ body {
     margin-bottom: 80px;
 }
 
+/*******************************/
+/* Blog CSS */
+.blog-container {
+    font-family: "Lato-Regular";
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    text-align: left;
+
+    width: 100%;
+} 
+
+.blog-container a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Post CSS */
+.post-container {
+    font-family: "Lato-Regular";
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .post-container {
+        width: 700px;
+    }
+    .blog-container {
+        width: 700px;
+    }
+}
+
+/*******************************/
 /*MOTHER PLANT*/
 .art {
     padding-top: 5%;

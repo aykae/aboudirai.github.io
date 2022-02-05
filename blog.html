@@ -1,0 +1,17 @@
+---
+layout: base
+title: blog
+---
+<div class="blog-container">
+<h1>a web log.</h1>
+
+{% for post in site.posts %}
+<br>
+<a href="{{ post.url }}">
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.date | date_to_string }}</p>
+</a>
+<hr align="left" >
+{% endfor %}
+
+</div>
