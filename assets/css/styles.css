@@ -9,14 +9,17 @@
 
 html, body {
     background-color: #000000;
-    color: #8e8d8b;
     overflow-x: hidden;
 
+    color: #8e8d8b;
     height:100%;
     width:100%;
     margin:0;
 }
 
+p {
+    color: #8e8d8b;
+}
 
 #network {
     position: absolute;
@@ -96,10 +99,10 @@ html, body {
     font-family: "Lato-Regular";
     padding-right: 15px;
     padding-left: 15px;
+    margin-top: 5%;
     margin-right: auto;
     margin-left: auto;
     font-size: 18px;
-    text-align: left;
 
     width: 100%;
 } 
@@ -118,15 +121,28 @@ html, body {
     margin-right: auto;
     margin-left: auto;
     font-size: 18px;
-    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.highlight {
+    margin: 0;
+}
+
+pre {
+    white-space: pre-wrap;
+    padding: 1em;
+    width: 100%;
 }
 
 @media (min-width: 768px) {
     .post-container {
-        width: 700px;
+        width: 750px;
     }
     .blog-container {
-        width: 700px;
+        width: 750px;
     }
 }
 
