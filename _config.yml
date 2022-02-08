@@ -6,3 +6,16 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+collections_dir: collections
+collections:
+  posts:
+    output: true
+  
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "aykae"

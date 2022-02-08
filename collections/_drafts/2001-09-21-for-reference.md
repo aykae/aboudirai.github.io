@@ -1,8 +1,6 @@
 ---
 layout: post
-title: FOR REFERENCE
-author: aykae
-published: true
+title: "FOR REFERENCE"
 categories: misc
 ---
 This is an exemplary block of text that should represent the text of a blog post. This could potentially be the opening paragraph to a very extensive, comprehensive, well-written post about some random thing that I'm particularly interested in at the time of writing.
