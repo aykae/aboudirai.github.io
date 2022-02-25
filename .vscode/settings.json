@@ -1,8 +1,7 @@
 {
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 100,
     "[markdown]":{
-        "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 100,
+        "rewrap.autoWrap.enabled": true,
+        "rewrap.doubleSentenceSpacing": false,
     },
 }
