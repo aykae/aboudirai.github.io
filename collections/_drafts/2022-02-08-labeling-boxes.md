@@ -75,19 +75,18 @@ it&mdash;make it my own.
 ## Purveyor of the gray area between black and white
 Virgil Abloh [(ILWIIR)](https://en.wikipedia.org/wiki/Inna_Lillahi_wa_inna_ilayhi_raji%27un), the
 founder and CEO of *Off-White* as well as artistic director of Louis Vuitton's menswear collection,
-has had a plainly obvious influence on my BL style, predominantly inspiring the actual content of
-the text that is fastidiously transcribed onto the Casey's label, that is then adhered to Jeff Bezos' boxes. 
+has had a plainly obvious influence on my BL style, predominantly inspiring the content of
+the text that is pedantically transcribed onto the Casey's label, that is then adhered to Jeff Bezos' boxes. 
 
-I make use of the renowned *Off-White* quotation marks. If you don't know what I'm referencing,
+My BL makes use of the renowned *Off-White* quotation marks, and if you don't know what I'm referencing,
 here's an example of one of the brand's luxury accessories: 
 
 {: .center}
 <img src="/assets/img/offwhite-pouch-front.jpg" width="65%" height="auto" />
 
-I know what you're thinking, that solid
-black coin pouch with no design but the text, "POUCH", on it should probably not be retailing at
-$360. However, the very fact that heaps of narrow-minded, fashion-averse consumers share this
-opinion make this product so valuable.
+I know what you're thinking, that solid black coin pouch with no design but the text, "POUCH", on it
+should probably not be retailing at $360. However, the very fact that heaps of narrow-minded,
+fashion-averse consumers share this opinion is precisely what makes this product so valuable.
 
 I have borrowed the quotation mark approach of design, and have applied it to my BL. Parallel to
 *Off-White*'s use of descriptive labeling, the words contained within the quotation marks for my BL
@@ -95,3 +94,15 @@ simply denote what the box does&mdash;it's innate and perpetual purpose, if you 
 
 Although my works of BL are not currently up for sale, when the day comes that I deem the people of
 this world categorically ready for my art, I will commercialize with rapacious haste.
+
+## My BL Process
+It's quite simple {blah blah blag}
+Step 1.
+Step 2.
+Step 3.
+
+## Some of my Works
+pics
+
+## Future of BL
+ 
