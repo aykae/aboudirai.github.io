@@ -115,12 +115,21 @@ p {
 /* Post CSS */
 .post-container {
     font-family: "Lato-Regular";
+    color: #cfcfcf;
     padding-top: 15px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     font-size: 18px;
+}
+
+.post-container p {
+    color: #d8d8d8;
+}
+
+.post-container a, a:visited {
+    color: #00ff15;
 }
 
 .center {
