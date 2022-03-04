@@ -21,6 +21,10 @@ p {
     color: #8e8d8b;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 #network {
     position: absolute;
     width: 100%;
