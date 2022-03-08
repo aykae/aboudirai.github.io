@@ -75,7 +75,10 @@ abbr {
 }
 
 /*.grow { transition: all .2s ease-in-out; }*/
-.grow:hover { transform: scale(1.1);}
+.grow:hover { 
+    transform: scale(1.1);
+    color: #00ff15;
+}
 
 .links {
     position: block;
@@ -132,7 +135,7 @@ abbr {
     color: #d8d8d8;
 }
 
-.post-container a, a:visited {
+.post-container a, a:hover {
     color: #00ff15;
 }
 
