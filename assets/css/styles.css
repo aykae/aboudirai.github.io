@@ -67,7 +67,7 @@ abbr {
         transform: translatey(0px);
     }
     50% {
-        transform: translatey(35px);
+        transform: translatey(30px);
     }
     100% {
         transform: translatey(0px);
@@ -98,6 +98,48 @@ abbr {
 .links a {
     text-decoration: none;
     margin-bottom: 80px;
+}
+
+.proj {
+    margin-top: 10%;
+}
+
+.proj p{
+    font-family: "Righteous-Regular";
+    font-family: "Lucida Console";
+    /*color: #8b8e8b;*/
+    color: #00ff15;
+    opacity: 0.75;
+    font-size: 30px;
+    text-align: center;
+    /* position: relative; */
+    position: block;
+}
+
+.holder {
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+.clip {
+    /* Clip edges, as some of the lines don't terminate nicely. */
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    color:#00ff15;
+    width: 200px;
+    height: 20px;
+    background: radial-gradient(16px, transparent, transparent 4px, #00ff15 4px, #00ff15 10px, transparent 11px);
+    background-size: 30px 40px;
+}
+
+.circle2 {
+    /* Offset to make squigglies line up */
+    top: 20px;
+    left: 15px;
+    background-position: 0px -20px;
 }
 
 @media screen and (max-device-width: 700px) {
