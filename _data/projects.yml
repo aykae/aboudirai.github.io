@@ -1,27 +1,14 @@
 - name: WowGlow
   desc: An LED modifcation for my WowGo electric longboard.
   body: I wired up an accelerometer, an individually addressable LED strip, and a 6V battery pack. Then, I modeled a closed case for this arrangemnt in Blender, 3D printed it, and screwed it to the bottom of my board, where its other electronics lay. The lights are fully programmable, and can react to the motion data captured by the accelerometer.
+  date: AUG 2022
   tech: Arduino (C/C++), Blender
   code: https://github.com/aykae/wowglow/blob/master/wowglow/wowglow.ino
   video: https://www.youtube.com/embed/6cUNDhWu8Co
 
-- name: WowGlow
-  desc: An LED modifcation for my WowGo electric longboard.
-  body: I wired up an accelerometer, an individually addressable LED strip, and a 6V battery pack. Then, I modeled a closed case for this arrangemnt in Blender, 3D printed it, and screwed it to the bottom of my board, where its other electronics lay. The lights are fully programmable, and can react to the motion data captured by the accelerometer.
-  tech: Arduino (C/C++), Blender
-  code: https://github.com/aykae/wowglow/blob/master/wowglow/wowglow.ino
-  video: https://www.youtube.com/embed/6cUNDhWu8Co
-
-- name: WowGlow
-  desc: An LED modifcation for my WowGo electric longboard.
-  body: I wired up an accelerometer, an individually addressable LED strip, and a 6V battery pack. Then, I modeled a closed case for this arrangemnt in Blender, 3D printed it, and screwed it to the bottom of my board, where its other electronics lay. The lights are fully programmable, and can react to the motion data captured by the accelerometer.
-  tech: Arduino (C/C++), Blender
-  code: https://github.com/aykae/wowglow/blob/master/wowglow/wowglow.ino
-  video: https://www.youtube.com/embed/6cUNDhWu8Co
-
-- name: WowGlow
-  desc: An LED modifcation for my WowGo electric longboard.
-  body: I wired up an accelerometer, an individually addressable LED strip, and a 6V battery pack. Then, I modeled a closed case for this arrangemnt in Blender, 3D printed it, and screwed it to the bottom of my board, where its other electronics lay. The lights are fully programmable, and can react to the motion data captured by the accelerometer.
-  tech: Arduino (C/C++), Blender
-  code: https://github.com/aykae/wowglow/blob/master/wowglow/wowglow.ino
-  video: https://www.youtube.com/embed/6cUNDhWu8Co
+- name: UnlockMe
+  desc: Device that unlocks MasterLock w/ Digital Keypad
+  date: JAN 2017
+  tech: Arduino (C/C++), Cardboard, Tape
+  code: https://github.com/aykae/UnlockME/blob/master/UnlockMe.ino
+  video: https://www.youtube.com/embed/joHz85nLcOE
