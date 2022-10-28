@@ -1,0 +1,24 @@
+---
+layout: base
+---
+<div id="network"></div>
+<div class="proj-container">
+<div class="proj">
+    <h1>projects:</h1>
+        {% for proj in site.data.projects %}
+        <div class = "proj-unit">
+            <div class="proj-text">
+                <h2>{{ proj.name }}</h2>
+                <h3>{{ proj.desc }}</h3>
+                <p>{{ proj.body }}</p>
+                <p>Tech Stack: {{ proj.tech }}</p>
+                <a href="{{ proj.code }}" target="_blank"><p class="link">&lt;Code&gt;</p></a>
+            </div>
+            <div class="proj-vid">
+                <iframe width="560" height="315" src="{{ proj.video }}?&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <hr style="height:2px;border-width:0;color:#8e8d8b; background-color:gray">
+        </div>
+        {% endfor %}
+</div>
+</div>

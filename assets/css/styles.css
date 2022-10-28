@@ -10,6 +10,8 @@
 html, body {
     background-color: #000000;
     overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
 
     color: #8e8d8b;
     height:100%;
@@ -26,7 +28,7 @@ abbr {
 }
 
 #network {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     top: 0%;
@@ -100,20 +102,72 @@ abbr {
     margin-bottom: 80px;
 }
 
-.proj {
-    margin-top: 10%;
+.proj-container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
-.proj p{
+.proj {
+    font-family: "Lucida Console";
+    font-family: "Trebuchet MS";
+
+    margin-top: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 30%;
+    height:auto;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.proj h1{
     font-family: "Righteous-Regular";
     font-family: "Lucida Console";
-    /*color: #8b8e8b;*/
     color: #00ff15;
+    font-size: 60px;
     opacity: 0.75;
-    font-size: 30px;
-    text-align: center;
-    /* position: relative; */
-    position: block;
+
+    margin-bottom: 10%;
+    text-align: left;
+}
+
+.proj h2 {
+    font-size: 35px;
+    margin: 0;
+}
+.proj h3 {
+    font-size: 20px;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.proj p {
+    margin-top: 25px;
+    text-justify: inter-word;
+}
+
+.proj a {
+    text-decoration: none;
+}
+.proj .link:hover {
+    color: #00ff15;
+}
+
+.proj-unit hr{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    opacity: 25%;
+}
+
+.proj-text {
+    display:inline-block;
+}
+.proj-vid {
+    margin-top: 30px;
+    display: inline-block;
 }
 
 .holder {
