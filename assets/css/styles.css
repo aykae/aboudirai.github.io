@@ -175,6 +175,10 @@ abbr {
     display: inline-block;
 }
 
+.proj-img{
+    text-align: center;
+}
+
 .holder {
     position: relative;
     width: 200px;
