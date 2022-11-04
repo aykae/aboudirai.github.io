@@ -1,3 +1,14 @@
+- name: Starbox
+  desc: Dynamic Decorative Lighting for Stargazers
+  body: 
+  date: "OCT 2022 &rarr; PRESENT"
+  tech: Python, Fusion360, HUB75 LED Matrices
+  code: https://github.com/aykae/starbox/blob/master/stars.py
+  link: https://www.etsy.com/shop/lumbalabs
+  image: 
+    - "starbox0.jpg"
+    - "starbox1.gif"
+
 - name: WowGlow
   desc: An LED modifcation for my WowGo electric longboard.
   body: I wired up an accelerometer, an individually addressable LED strip, and a 6V battery pack. Then, I modeled a closed case for this arrangemnt in Blender, 3D printed it, and screwed it to the bottom of my board, where its other electronics lay. The lights are fully programmable, and can react to the motion data captured by the accelerometer.
@@ -16,6 +27,7 @@
 
 - name: UnlockMe
   desc: Device that unlocks MasterLock w/ Digital Keypad
+  body: Back during my sophomore year of high school, I attended the Univesity of Pennsylvania's hackathon, PennAppsXV, and worked on a device that swiftly opened a rotary Masterlock based on digital keypad input. I 3D printed a piece that latched onto both the shaft of a stepper motor and the dial of the Masterlock. With an Arduino, I was able to translate digital keyboard input of the lock's combination and convert that into corresponding rotations that opened the lock with great speed. In typical hackathon fashion, the enclosure for the device was intricately constructed out of cardboard and electrical tape.
   date: JAN 2017
   tech: Arduino (C/C++), Cardboard, Tape
   code: https://github.com/aykae/UnlockME/blob/master/UnlockMe.ino

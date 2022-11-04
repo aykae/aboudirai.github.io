@@ -26,9 +26,11 @@ layout: base
             </div>
             {% endif %}
             {% if proj.image %}
-            <div class="proj-img">
-            <img src="/assets/img/{{ proj.image }}" width="50%" height="auto">
-            </div>
+                <div class="proj-img">
+                {% for img in proj.image %}
+                    <img src="/assets/img/{{ img }}" width="100%" height="auto">
+                {% endfor %}
+                </div>
             {% endif %}
             <hr style="height:2px;border-width:0;color:#8e8d8b; background-color:gray">
         </div>
