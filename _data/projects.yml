@@ -1,13 +1,15 @@
 - name: Starbox
   desc: Dynamic Decorative Lighting for Stargazers
-  body: 
-  date: "OCT 2022 &rarr; PRESENT"
-  tech: Python, Fusion360, HUB75 LED Matrices
+  body: My first polished commercial product, Starbox is a dynamic light display that contiuously generates random star clusters of different sizes, colors, and brightness. Rare shooting stars are also generated and displayed. Device enclosure was modeled in Fusion 360. Star generation and HUB75 light display written in Python. Available now at my Etsy shop linked below!
+  date: "OCT 2022"
+  tech: Python, Fusion 360, HUB75 LED Matrices
   code: https://github.com/aykae/starbox/blob/master/stars.py
   link: https://www.etsy.com/shop/lumbalabs
   image: 
     - "starbox0.jpg"
     - "starbox1.gif"
+    - "starbox-model0.png"
+    - "starbox-model1.png"
 
 - name: WowGlow
   desc: An LED modifcation for my WowGo electric longboard.
@@ -18,7 +20,7 @@
   video: https://www.youtube.com/embed/6cUNDhWu8Co
 
 - name: "EasyA: Study Smart"
-  date: "AUG 2020 &rarr; PRESENT"
+  date: "AUG 2020"
   desc: Spaced Repetition study app to supplement college courses
   body: Released to the App Store under my ed-tech company Tryber Inc., my co-founder and I developed EasyA in order to provide free study tools for students who struggled with maintaining structured study habits. I developed the customer-facing app and internal backend, while my co-founder wrote the course content and exerises. Once the user marked that they had learned a topic in one of our three supported courses (Calculus I, Intro to Biology, Intro to Chemistry), EasyA would notify the user in spaced intervals to review a summary of a topic they had learned, as well as take a short quiz to test their comprehension.
   tech: Swift (iOS app), Django (backend), AWS (hosting & storage)
@@ -31,4 +33,4 @@
   date: JAN 2017
   tech: Arduino (C/C++), Cardboard, Tape
   code: https://github.com/aykae/UnlockME/blob/master/UnlockMe.ino
-  video: https://www.youtube.com/embed/joHz85nLcOE
+  image: "unlockme.gif"
