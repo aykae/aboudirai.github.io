@@ -8,8 +8,8 @@
   image: 
     - "starbox0.jpg"
     - "starbox1.gif"
-    - "starbox-model0.png"
-    - "starbox-model1.png"
+    - "starbox-model0.PNG"
+    - "starbox-model1.PNG"
 
 - name: WowGlow
   desc: An LED modifcation for my WowGo electric longboard.
