@@ -1,3 +1,9 @@
+- name: Chowder Character Model
+  desc: Modeling a 3D rendition of Chowder from scratch using Maya
+  date: "DEC 2022"
+  tech: Maya
+  image: "chowder.jpg"
+
 - name: Starbox
   desc: Dynamic Decorative Lighting for Stargazers
   body: My first polished commercial product, Starbox is a dynamic light display that contiuously generates random star clusters of different sizes, colors, and brightness. Rare shooting stars are also generated and displayed. Device enclosure was modeled in Fusion 360. Star generation and HUB75 light display written in Python. Available now at my Etsy shop linked below!
