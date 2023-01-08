@@ -1,0 +1,41 @@
+- name: MoCap Animation Blending
+  desc: Description
+  body: Body
+  date: "NOV 2022"
+  tech: Vicon MoCap System, Autodesk MotionBuilder
+  code: 
+  video: https://www.youtube.com/embed/mUDY0mhlINU
+
+- name: FK/IK System
+  date: "OCT 2022"
+  desc: Desc
+  body: Body
+  tech: OpenGL
+  code: 
+  video: https://www.youtube.com/embed/FKyROqe1biU
+
+- name: "EasyA: Study Smart"
+  date: "AUG 2020"
+  desc: Spaced Repetition study app to supplement college courses
+  body: Released to the App Store under my ed-tech company Tryber Inc., my co-founder and I developed EasyA in order to provide free study tools for students who struggled with maintaining structured study habits. I developed the customer-facing app and internal backend, while my co-founder wrote the course content and exercises. Once the user marked that they had learned a topic in one of our three supported courses (Calculus I, Intro to Biology, Intro to Chemistry), EasyA would notify the user in spaced intervals to review a summary of a topic they had learned, as well as take a short quiz to test their comprehension.
+  tech: Swift (iOS app), Django (backend), AWS (hosting & storage)
+  link: https://tryeasya.com
+  image: 
+    - "easya.gif"
+    - "easya.png"
+
+- name: Interactive AR Instagram Filter
+  date: "OCT 2022"
+  desc: Desc
+  body: Body
+  tech: SparkAR, Photoshop
+  image: "osfilter.gif"
+
+- name: Interactive Playoff Projection Simulator
+  date: "NOV 2019"
+  desc: Desc
+  body: Body
+  tech: JavaScript, Photoshop
+  code: https://github.com/aykae/cfb-bracket-app 
+  link: https://onwardstate.com/2019/11/15/penn-state-footballs-bowl-game-predictor/
+  image: "cfb.gif"

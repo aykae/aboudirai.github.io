@@ -1,0 +1,39 @@
+---
+layout: base
+---
+<div id="network"></div>
+<div class="proj-container">
+<div class="proj">
+    <h1>projects</h1>
+        {% for proj in site.data.nyt %}
+        <div class = "proj-unit">
+            <div class="proj-text">
+                <h2>{{ proj.name }}</h2>
+                <h3>{{ proj.desc }}</h3>
+                <h3 class="date"><em>{{ proj.date }}</em></h3>
+                <p>{{ proj.body }}</p>
+                <p>Tech Stack: {{ proj.tech }}</p>
+                {% if proj.code %}
+                <a href="{{ proj.code }}" target="_blank"><p class="link">&lt;Code&gt;</p></a>
+                {% endif %}
+                {% if proj.link %}
+                <a href="{{ proj.link }}" target="_blank"><p class="link">&lt;Link&gt;</p></a>
+                {% endif %}
+            </div>
+            {% if proj.video %}
+            <div class="proj-vid">
+                <iframe width="560" height="315" src="{{ proj.video }}?&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            {% endif %}
+            {% if proj.image %}
+                <div class="proj-img">
+                {% for img in proj.image %}
+                    <img src="/assets/img/{{ img }}" width="100%" height="auto">
+                {% endfor %}
+                </div>
+            {% endif %}
+            <hr style="height:2px;border-width:0;color:#8e8d8b; background-color:gray">
+        </div>
+        {% endfor %}
+</div>
+</div>
