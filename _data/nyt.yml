@@ -1,6 +1,6 @@
 - name: MoCap Animation Blending
   desc: A smooth blending of three animations captured on a Vicon MoCap System
-  body: Using the University of Pennsylvania SIG Lab's Vicon Motion Capture, I recorded three separate scenes. Using the captured data and Autodesk MotionBuilder, I applied the data onto a rigged character model, and then blended the transition between the three scenes so that the result is a realistically continuous animation.
+  body: Using the University of Pennsylvania SIG Lab's Vicon Motion Capture System, I recorded three separate MoCap scenes. Using the captured data and Autodesk MotionBuilder, I applied the data onto a rigged character model, and then blended the transition between the three scenes so that the result is a realistically continuous animation.
   date: "NOV 2022"
   tech: Vicon MoCap System, Autodesk MotionBuilder
   video: https://www.youtube.com/embed/mUDY0mhlINU
