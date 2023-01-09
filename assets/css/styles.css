@@ -255,38 +255,87 @@ abbr {
 } 
 
 .blog-container h1 {
+    margin: 0;
+    padding: 0;
+
     font-size: 50px;
+    color: #343434;
+    opacity: 75%;
+}
+
+.blog-container h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    color: #343434;
+    opacity: 100%;
+}
+
+.blog-container h2 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .blog-container a{
     text-decoration: none;
+    margin: 0;
+    padding: 0;
     color: inherit;
+    font-size: 14px;
 }
+
 .blog-container a:hover{
-    color: #00ff15 !important;
+    color: #00b786;
 }
+
+.blog-item {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+
 
 /* Post CSS */
 .post-container {
-    font-family: "Lato-Regular";
+    font-family: "Times New Roman";
+    font-size: 16px;
     color: #cfcfcf;
+
+    width: 45% !important;
+
     padding-top: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+
     margin-right: auto;
     margin-left: auto;
-    font-size: 18px;
 
     margin-top: 5%;
     margin-bottom: 20%;
 }
 
+.post-container h1 {
+    font-family: "Lato-Regular";
+    margin:0;
+}
+
 .post-container p {
+    font-family: "Lato-Regular";
     color: #d8d8d8;
+    margin:0;
 }
 
 .post-container a {
-    color: #00ff15;
+    color: #00b786;
+    text-decoration: none;
+}
+
+.post-container a:hover {
+    color: #d8d8d8;
 }
 
 .center {
@@ -305,7 +354,7 @@ pre {
 
 @media screen and (max-device-width: 700px) {
     .post-container {
-        width: 100%;
+        width: 100% !important;
         padding-right: 0;
         padding-left: 0;
 

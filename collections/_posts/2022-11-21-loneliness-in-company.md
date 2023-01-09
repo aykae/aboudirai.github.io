@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Loneliness in Company"
-permalink: /weblog/:title/
+permalink: /logs/:title/
 categories: letters
 ---
 Dear &emsp;&emsp;&emsp;&emsp;,
