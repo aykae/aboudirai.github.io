@@ -274,7 +274,8 @@ abbr {
 }
 
 .blog-container h2 {
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: normal;
     margin: 0;
     padding: 0;
 }
@@ -302,6 +303,7 @@ abbr {
 /* Post CSS */
 .post-container {
     width: 45% !important;
+    font-family: "Tahoma";
 
     padding-top: 15px;
     /* padding-right: 15px;
@@ -315,21 +317,29 @@ abbr {
 }
 
 .post-container h1 {
-    font-family: "Lato-Regular";
+    /* font-family: "Lato-Regular"; */
+    font-weight: normal;
     margin:0;
-    color: #e1e1e1;
+    /* color: #e1e1e1; */
+    color: #8e8d8b;
+}
+
+.post-container h2 {
 }
 
 .post-container abbr {
-    font-family: "Lato-Regular";
+    /* font-family: "Lato-Regular"; */
     /* color: #d8d8d8; */
+    font-size: 15px;
     margin:0;
 }
 
 .post-container p {
-    font-family: "Times New Roman";
+    /* font-family: "Times New Roman"; */
+    font-family: "Tahoma";
     font-size: 16px;
-    color: #e1e1e1;
+    /* color: #e1e1e1; */
+    color: #8e8d8b;
 }
 
 .post-container a {
@@ -338,7 +348,12 @@ abbr {
 }
 
 .post-container a:hover {
-    color: #d8d8d8;
+    /* color: #d8d8d8; */
+    color: #8e8d8b;
+}
+
+.post-container hr {
+    background-color: #8e8d8b;
 }
 
 .center {
@@ -357,7 +372,7 @@ pre {
 
 @media screen and (max-device-width: 700px) {
     .post-container {
-        width: 100% !important;
+        width: 80% !important;
         padding-right: 0;
         padding-left: 0;
 
