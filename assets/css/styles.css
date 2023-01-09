@@ -301,10 +301,6 @@ abbr {
 
 /* Post CSS */
 .post-container {
-    font-family: "Times New Roman";
-    font-size: 16px;
-    color: #cfcfcf;
-
     width: 45% !important;
 
     padding-top: 15px;
@@ -321,12 +317,19 @@ abbr {
 .post-container h1 {
     font-family: "Lato-Regular";
     margin:0;
+    color: #e1e1e1;
+}
+
+.post-container abbr {
+    font-family: "Lato-Regular";
+    /* color: #d8d8d8; */
+    margin:0;
 }
 
 .post-container p {
-    font-family: "Lato-Regular";
-    color: #d8d8d8;
-    margin:0;
+    font-family: "Times New Roman";
+    font-size: 16px;
+    color: #e1e1e1;
 }
 
 .post-container a {
