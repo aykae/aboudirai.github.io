@@ -18,16 +18,14 @@
   body: Released to the App Store under my ed-tech company Tryber Inc., my co-founder and I developed EasyA in order to provide free study tools for students who struggled with maintaining structured study habits. I developed the customer-facing app and internal backend, while my co-founder wrote the course content and exercises. Once the user marked that they had learned a topic in one of our three supported courses (Calculus I, Intro to Biology, Intro to Chemistry), EasyA would notify the user in spaced intervals to review a summary of a topic they had learned, as well as take a short quiz to test their comprehension.
   tech: Swift (iOS app), Django (backend), AWS (hosting & storage)
   link: https://tryeasya.com
-  image: 
-    - "easya.gif"
-    - "easya.png"
+  vimage: "easya.gif"
 
 - name: Augmented Reality Instagram Filter
   date: "JAN 2020"
   desc: Filter for random Penn State college selection
   body: Implementing the node-based programming of SparkAR, combined with the various Penn State College frames I designed in Photoshop, I was able to create a roulette type animation that concluded with a randomly selected college for the filter user. The first filter published to Onward State's Instagram, it garnered roughly 100,000 impressions via 50,000 videos created.
   tech: SparkAR (now Meta Spark), Adobe Photoshop
-  image: "osfilter.gif"
+  vimage: "osfilter.gif"
 
 - name: Interactive Playoff Projection Simulator
   date: "NOV 2019"

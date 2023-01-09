@@ -32,6 +32,13 @@ layout: base
                 {% endfor %}
                 </div>
             {% endif %}
+            {% if proj.vimage %}
+                <div class="proj-img">
+                {% for img in proj.vimage %}
+                    <img src="/assets/img/{{ img }}" width="75%" height="auto">
+                {% endfor %}
+                </div>
+            {% endif %}
             <hr style="height:2px;border-width:0;color:#8e8d8b; background-color:gray">
         </div>
         {% endfor %}
