@@ -2,12 +2,13 @@
 layout: base
 ---
 <div class="post-container">
-<h1>{{ page.title }}</h1>
-<abbr title="{{ page.date | date: '%m %d %Y' }}">{{ page.date | date: "DAY %j, %Y" }}</abbr>
+    <h1>{{ page.title }}</h1>
+    <abbr title="{{ page.date | date: '%m %d %Y' }}">{{ page.date | date: "DAY %j, %Y" }}</abbr>
 
-<br>
-<hr>
-<br>
-
-<p>{{ content }}</p>
+    <br>
+    <hr>
+    <br>
+    <div class="post-content">
+    <p>{{ content }}</p>
+    </div>
 </div>
