@@ -36,7 +36,13 @@ The most blatant root of this fear of expression and the subsequent self-imposed
 
 As a fallible human being capable of sin, with my admittedly fallible mind capable of sinful thought, the prudence I am practicing in regard to the expression of *new* ideas and opinions that I have developed based on the limited interactions of my twenty one years of life is not unfounded. If an ostensibly innocuous idea that I express goes against the doctrine by which I live my life, even if that fact is unbeknownst to me, I am accountable for spreading such blasphemy—I bear any sins which are to result from my expression, so it be followed by only one person. 
 
-Full disclosure, Islam does not employ this principle in order to discourage or repudiate free thinking, rather quite the opposite; the religion encourages and praises excellence, so much so that any pursuit of science or philosophy with the underlying intention of advancing society towards a better understanding of the world we live in and transitively, of God, is deemed as an act of worship. My hesitance to express my own opinions and philosophies in relation to societal issues, politics, and the human psyche is one that is rooted in my insecurity in my Islamic erudition.
+Full disclosure, Islam does not employ this principle in order to discourage or repudiate free
+thinking, rather quite the opposite; the religion encourages the seeking of knowledge, so much so
+that any pursuit of science or philosophy with the underlying intention of advancing society towards
+a better
+understanding of the world we live in and transitively, of God, is deemed as an act of worship. My
+hesitance to express my own opinions and philosophies in relation to societal issues, politics, and
+the human psyche is one that is rooted in my insecurity in my Islamic erudition.
 
 Attaining only a minimal classroom education in Islam, most of my education has been from practices passed down through family and friends, watching and reading lectures and articles posted onto the Internet, and reading an English translation of the Quran. Although my level of knowledge on the religion is sufficient enough to practice the five core pillars and avoid the more glaring major sins, there are still subtle moments in my daily life where a vigilant area of my subconscious activates, spawning the feeling that I might be transgressing a particular principle of my faith. The feeling is discreet yet compelling; affably concerned yet markedly subversive. It is a subconscious defense mechanism, protecting me from the severity of divine disobedience while, in tandem, disrupting my confidence in the decisions I take in my life, causing me to question and reevaluate them. Contemplation is neither harmful nor uninvited, but when these uncertain feelings arise often enough to where I am completely discouraged to pursue practices that are fundamentally encouraged in Islam, it starts to become detrimental.
 
