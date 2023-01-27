@@ -299,10 +299,9 @@ abbr {
 }
 
 
-
 /* Post CSS */
 .post-container {
-    width: 45% !important;
+    width: 50% !important;
     font-family: "Tahoma";
 
     padding-top: 15px;
@@ -338,8 +337,11 @@ abbr {
     /* font-family: "Times New Roman"; */
     font-family: "Tahoma";
     font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
     /* color: #e1e1e1; */
     color: #8e8d8b;
+    margin-bottom: 25px;
 }
 
 .post-container a {
@@ -353,11 +355,17 @@ abbr {
 }
 
 .post-container hr {
+    height: 1px;
     background-color: #8e8d8b;
+    border: none;
+    color: #8e8d8b;
+}
+.post-content hr {
+    margin: 50px 0;
 }
 
 .center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .highlight {
