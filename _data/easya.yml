@@ -1,0 +1,8 @@
+- name: "EasyA: Study Smart"
+  date: "AUG 2020"
+  desc: Spaced Repetition study app to supplement college courses
+  body: Released to the App Store under my ed-tech company Tryber Inc., my co-founder and I developed EasyA in order to provide free study tools for students who struggled with maintaining structured study habits. I developed the customer-facing app and internal backend, while my co-founder wrote the course content and exercises. Once the user marked that they had learned a topic in one of our three supported courses (Calculus I, Intro to Biology, Intro to Chemistry), EasyA would notify the user in spaced intervals to review a summary of a topic they had learned, as well as take a short quiz to test their comprehension.
+  tech: Swift (iOS app), Django (backend), AWS (hosting & storage)
+  link: https://tryeasya.com
+  image: "easya.png"
+  vimage: "easya.gif"
