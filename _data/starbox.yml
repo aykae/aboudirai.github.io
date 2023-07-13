@@ -1,0 +1,12 @@
+- name: Starbox
+  desc: Dynamic Decorative Lighting for Stargazers
+  body: My first polished commercial product, Starbox is a dynamic light display that continuously generates random star clusters of different sizes, colors, and brightness. Rare shooting stars are also generated and displayed. Device enclosure was modeled in Fusion 360. Star generation and HUB75 light display written in Python. Available now at my Etsy shop linked below!
+  date: "OCT 2022"
+  tech: Python, Fusion 360, HUB75 LED Matrices
+  code: https://github.com/aykae/starbox/blob/master/starbox/stars.py
+  link: https://www.etsy.com/shop/lumbalabs
+  image: 
+    - "starbox0.jpg"
+    - "starbox1.gif"
+    - "starbox-model0.PNG"
+    - "starbox-model1.PNG"
