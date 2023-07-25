@@ -1,4 +1,4 @@
-const genBtn = document.querySelector("#genBtn");
+const genBtn = document.querySelector("#cl-gen-btn");
 
 genBtn.addEventListener("click", async () => {
     try {
@@ -9,7 +9,7 @@ genBtn.addEventListener("click", async () => {
         const sentObj = await response.json();
         console.log(sentObj);
         
-        document.querySelector("#sentence").innerText = sentObj["sentence"]
+        document.querySelector("#cl-sent-box").innerText = sentObj["sentence"]
     } catch (error) {
         console.log("Error fetching sentence")
     }

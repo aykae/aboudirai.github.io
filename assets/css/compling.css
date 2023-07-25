@@ -20,17 +20,45 @@ body {
 }
 
 #cl-title {
-    font-size: 60px;
+    color: #696969;
+    font-size: 70px;
+    margin: 0;
+}
+
+#cl-subtitle {
+    color: #818181;
+    font-style: italic;
+    margin: 0;
+}
+
+#cl-navbar {
+    padding-top: 1em;
     margin: 0;
 }
 
 li {
-    font-style: italic;
+    color: #333333;
+    font-size: 20px;
+
     list-style-type: none;
     display: inline;
+
+    padding-top: 2em;
     padding-right: 5em;
 }
 
-h2 {
-    font-size: 30px;
+#cl-app-title {
+    font-size: 50px;
+
+    padding-top: 1em;
+    margin: 0;
+}
+
+#cl-app-subtitle {
+    color: #585858;
+    margin: 0;
+}
+
+#cl-sent-box {
+    font-size: 35px;    
 }
