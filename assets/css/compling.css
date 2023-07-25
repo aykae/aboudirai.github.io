@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous-Regular.ttf");
+}
+@font-face{
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+@font-face{
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+
+body {
+    padding-top: 1em;
+
+    text-align: center;
+    background-color: #d7d9d9;
+    font-family: "Lato-Regular"
+}
+
+#cl-title {
+    font-size: 60px;
+    margin: 0;
+}
+
+li {
+    font-style: italic;
+    list-style-type: none;
+    display: inline;
+    padding-right: 5em;
+}
+
+h2 {
+    font-size: 30px;
+}
