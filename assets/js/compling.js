@@ -1,5 +1,4 @@
 const genBtn = document.querySelector("#cl-gen-btn");
-
 genBtn.addEventListener("click", async () => {
     try {
         const response = await fetch("http://127.0.0.1:8000/clapps/gensent/",
@@ -10,6 +9,8 @@ genBtn.addEventListener("click", async () => {
         console.log(sentObj);
         
         document.querySelector("#cl-sent-box").innerText = sentObj["sentence"]
+        new TypeIt("#cl-sent-box").go();
+
     } catch (error) {
         console.log("Error fetching sentence")
     }
