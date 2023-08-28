@@ -8,8 +8,10 @@ genBtn.addEventListener("click", async () => {
         const sentObj = await response.json();
         console.log(sentObj);
         
-        document.querySelector("#cl-sent-box").innerText = sentObj["sentence"]
-        new TypeIt("#cl-sent-box").go();
+        document.querySelector("#cl-sent-box").innerText = sentObj["sentence"];
+        new TypeIt("#cl-sent-box", {
+            speed: 50,
+        }).go();
 
     } catch (error) {
         console.log("Error fetching sentence")
