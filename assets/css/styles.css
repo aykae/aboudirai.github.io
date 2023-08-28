@@ -60,7 +60,17 @@ abbr {
 }
 
 .name {
+    font-family: "Lato-Regular";
+    color: #e4e4e4;
+    font-size: 80px;
+    text-align: center;
+    position: block;
+    margin: 10% 0 0 0;
+}
+
+.name p {
     /* padding-bottom: 10px; */
+    color: #e4e4e4;
     margin: 0 auto;
 }
 
@@ -85,13 +95,11 @@ abbr {
 }
 
 .links {
-    position: block;
     margin: 0 auto;
 }
 
 .links i {
-    color: #8e8d8b;
-    opacity: 0.75;
+    color: #e4e4e4;
     padding: 10px 15px 0 15px;
 }
 
