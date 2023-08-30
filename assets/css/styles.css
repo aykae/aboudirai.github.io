@@ -94,22 +94,35 @@ abbr {
     color: #00b786;
 }
 
+.glow a{
+    transition: all 0.5s ease;
+}
+.glow a:hover{
+    color: #00b786;
+}
+
 .links {
+    font-family: "Lato-Regular";
     margin: 0 auto;
 }
 
 .links i {
-    color: #e4e4e4;
-    padding: 10px 15px 0 15px;
+    padding-right: 10px;
 }
 
 .links ul {
     padding: 0px;
 }
 
+.links li {
+    padding-bottom: 10px;
+}
+
 .links a {
     text-decoration: none;
     margin-bottom: 80px;
+    color: #e4e4e4;
+    font-size: 25px;
 }
 
 @media screen and (max-device-width: 700px) {
