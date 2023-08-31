@@ -1,17 +1,19 @@
 
-- name: MoCap Animation Blending
-  desc: A smooth blending of three animations captured on a Vicon MoCap System
-  body: Using the University of Pennsylvania SIG Lab's Vicon Motion Capture System, I recorded three separate MoCap scenes. Using the captured data and Autodesk MotionBuilder, I applied the data onto a rigged character model, and then blended the transition between the three scenes so that the result is a realistically continuous animation.
-  date: "NOV 2022"
-  tech: Vicon MoCap System, Autodesk MotionBuilder
-  video: https://www.youtube.com/embed/mUDY0mhlINU
+- name: SentGen
+  date: JULY 2023
+  desc: Generative English grammar that produces random sentences.
+  body: Temp.
+  tech: Python, Django (API)
+  code: https://github.com/aykae/compling/blob/master/clsite/clapps/compling/generator.py
+  video: 
 
-- name: FK/IK System
-  date: "OCT 2022"
-  desc: Forward and inverse kinematics system for character animation
-  body: Given an input of keyframed joint angles for various animations, I implemented the Forward Kinematics and their interpolation for a rigged character model. Two Inverse Kinematics techniques were also implemented, Limb-Based IK and Cyclic Coordinate Descent (CCD) IK to allow joint angle computation given a target position of a joint. This project was assigned in my Computer Animation course (CIS5620). Source code is privated due to course integrity restrictions. Feel free to email hi@aykae.com for access.
-  tech: OpenGL (C++)
-  video: https://www.youtube.com/embed/FKyROqe1biU
+- name: "EasyA: Study Smart"
+  date: "AUG 2020 - PRESENT"
+  desc: Spaced Repetition study app to supplement college courses
+  body: Released to the App Store under my ed-tech company Tryber Inc., my co-founder and I developed EasyA in order to provide free study tools for students who struggled with maintaining structured study habits. I developed the customer-facing app and internal backend, while my co-founder wrote the course content and exercises. Once the user marked that they had learned a topic in one of our three supported courses (Calculus I, Intro to Biology, Intro to Chemistry), EasyA would notify the user in spaced intervals to review a summary of a topic they had learned, as well as take a short quiz to test their comprehension.
+  tech: Swift (iOS app), Django (backend), AWS (hosting & storage)
+  link: https://tryeasya.com
+  image: "easya.png"
 
 - name: Starbox
   desc: Dynamic Decorative Lighting for Stargazers
@@ -26,12 +28,6 @@
     - "starbox-model0.PNG"
     - "starbox-model1.PNG"
 
-- name: Chowder Character Model
-  desc: Modeling a 3D rendition of Chowder from scratch using Maya
-  date: "DEC 2022"
-  tech: Maya
-  image: "chowder.jpg"
-
 - name: WowGlow
   desc: An LED modification for my WowGo electric longboard.
   body: I wired up an accelerometer, an individually addressable LED strip, and a 6V battery pack. Then, I modeled a closed case for this arrangement in Blender, 3D printed it, and screwed it to the bottom of my board, where its other electronics lay. The lights are fully programmable, and can react to the motion data captured by the accelerometer.
@@ -40,13 +36,25 @@
   code: https://github.com/aykae/wowglow/blob/master/wowglow/wowglow.ino
   video: https://www.youtube.com/embed/6cUNDhWu8Co
 
-- name: "EasyA: Study Smart"
-  date: "AUG 2020"
-  desc: Spaced Repetition study app to supplement college courses
-  body: Released to the App Store under my ed-tech company Tryber Inc., my co-founder and I developed EasyA in order to provide free study tools for students who struggled with maintaining structured study habits. I developed the customer-facing app and internal backend, while my co-founder wrote the course content and exercises. Once the user marked that they had learned a topic in one of our three supported courses (Calculus I, Intro to Biology, Intro to Chemistry), EasyA would notify the user in spaced intervals to review a summary of a topic they had learned, as well as take a short quiz to test their comprehension.
-  tech: Swift (iOS app), Django (backend), AWS (hosting & storage)
-  link: https://tryeasya.com
-  image: "easya.png"
+- name: MoCap Animation Blending
+  desc: A smooth blending of three animations captured on a Vicon MoCap System
+  body: Using the University of Pennsylvania SIG Lab's Vicon Motion Capture System, I recorded three separate MoCap scenes. Using the captured data and Autodesk MotionBuilder, I applied the data onto a rigged character model, and then blended the transition between the three scenes so that the result is a realistically continuous animation.
+  date: "NOV 2022"
+  tech: Vicon MoCap System, Autodesk MotionBuilder
+  video: https://www.youtube.com/embed/mUDY0mhlINU
+
+- name: FK/IK System
+  date: "OCT 2022"
+  desc: Forward and inverse kinematics system for character animation
+  body: Given an input of keyframed joint angles for various animations, I implemented the Forward Kinematics and their interpolation for a rigged character model. Two Inverse Kinematics techniques were also implemented, Limb-Based IK and Cyclic Coordinate Descent (CCD) IK to allow joint angle computation given a target position of a joint. This project was assigned in my Computer Animation course (CIS5620). Source code is privated due to course integrity restrictions. Feel free to email hi@aykae.com for access.
+  tech: OpenGL (C++)
+  video: https://www.youtube.com/embed/FKyROqe1biU
+
+- name: Chowder Character Model
+  desc: Modeling a 3D rendition of Chowder from scratch using Maya
+  date: "DEC 2022"
+  tech: Maya
+  image: "chowder.jpg"
 
 - name: Augmented Reality Instagram Filter
   date: "JAN 2020"

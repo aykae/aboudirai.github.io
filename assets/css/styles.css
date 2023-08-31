@@ -171,9 +171,9 @@ abbr {
     font-family: "Lucida Console";
     /* color: #00ff15; */
     /* color: #00b786; */
-    color: #343434;
+    /* color: #343434; */
+    color: #e4e4e4;
     font-size: 60px;
-    opacity: 0.75;
 
     margin-bottom: 10%;
     text-align: left;
@@ -280,8 +280,8 @@ abbr {
     padding: 0;
 
     font-size: 50px;
-    color: #343434;
-    opacity: 75%;
+    color: #e4e4e4;
+    font-weight: normal;
 }
 
 .blog-container h3 {
@@ -290,8 +290,8 @@ abbr {
     margin-bottom: 30px;
 
     font-size: 20px;
-    color: #343434;
-    opacity: 100%;
+    color: #e4e4e4;
+    font-weight: normal;
 }
 
 .blog-container h2 {
@@ -307,6 +307,10 @@ abbr {
     padding: 0;
     color: inherit;
     font-size: 14px;
+}
+
+.blog-container a{
+    transition: all 0.5s ease;
 }
 
 .blog-container a:hover{
