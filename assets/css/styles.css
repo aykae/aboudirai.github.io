@@ -64,7 +64,7 @@ abbr {
     color: #e4e4e4;
     font-size: 80px;
     text-align: center;
-    position: block;
+    position: relative;
     margin: 10% 0 0 0;
 }
 
@@ -102,6 +102,7 @@ abbr {
 }
 
 .links {
+    position: relative;
     font-family: "Lato-Regular";
     margin: 0 auto;
 }
@@ -132,6 +133,7 @@ abbr {
     }
 
     .links {
+        margin-top: 80px;
         transform: scale(1.7);
     }
     
@@ -205,9 +207,20 @@ abbr {
 .proj a {
     text-decoration: none;
 }
-.proj .link:hover {
+
+.desc-link {
+    color: #00b786;
+    transition: all 0.5s ease;
+}
+
+.desc-link:hover {
+    color: #8e8d8b;
+}
+
+.link:hover {
     /* color: #00ff15; */
     color: #00b786;
+    transition: all 0.5s ease;
 }
 
 .proj-unit hr{
