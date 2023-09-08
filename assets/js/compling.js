@@ -1,7 +1,7 @@
 const genBtn = document.querySelector("#cl-gen-btn");
 genBtn.addEventListener("click", async () => {
     try {
-        const response = await fetch("http://127.0.0.1:8000/clapps/gensent/",
+        const response = await fetch("https://hpn7vzaxswwi3coxajv2erym7u0nqpen.lambda-url.us-east-1.on.aws/",
         {
             method: "GET",
         });
