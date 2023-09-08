@@ -14,10 +14,12 @@ layout: base
                 <p>{{ proj.body }}</p>
                 <p>Tech Stack: {{ proj.tech }}</p>
                 {% if proj.code %}
-                <a href="{{ proj.code }}" target="_blank"><p class="link">[Code]</p></a>
+                <a class="desc-link" href="{{ proj.code }}" target="_blank">[Code]</a>
+                <br><br>
                 {% endif %}
                 {% if proj.link %}
-                <a href="{{ proj.link }}" target="_blank"><p class="link">[Link]</p></a>
+                <a class="desc-link" href="{{ proj.link }}" target="_blank">[Link]</a>
+                <br><br>
                 {% endif %}
             </div>
             {% if proj.video %}
