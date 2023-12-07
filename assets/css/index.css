@@ -1,0 +1,34 @@
+body {
+    background-color: #fff4ef;
+    color: #000000;
+}
+
+.home-container {
+    padding: 0% 15% 0% 15% 
+    /* overflow: hidden; */
+
+    /* Verticall center contents */
+    /* margin: 0;
+    display: flex;
+    align-items: center;        */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+a {
+    color: #676767;
+}
+
+.home-row {
+    justify-content: left;
+    text-align: left;
+}
+
+.col {
+}
+
+.sidebar {
+    display: none;
+}
+
+@media (min-width: 576px) {}

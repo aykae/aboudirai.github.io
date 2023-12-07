@@ -8,16 +8,16 @@
 }
 
 html, body {
-    /* background-color: #000000; */
-    background-color: #0f0f0f;
-    overflow-x: hidden;
+    background-color: #ffffff;
+    color: #000000;
+
+    /*overflow-x: hidden;
     overflow-y: auto;
     position: relative;
-
-    color: #8e8d8b;
     height:100%;
     width:100%;
     margin:0;
+    */
 }
 
 p {
