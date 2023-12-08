@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fear of Expression"
-permalink: /logs/:title/
+permalink: /writing/:title/
 categories: essays
 ---
 I have a dense filter placed between my brain and my mouth, between my brain and the tips of my fingers, between my brain and my wandering, curious subconscious, when it comes to the expression of ideas and opinions that are, ostensibly with great shame and contempt, my own.

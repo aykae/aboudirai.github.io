@@ -1,0 +1,16 @@
+
+.writing-container {
+    padding: 3% 25% 0% 25%;
+}
+
+.writing-titles {
+    margin-top: 5%;
+}
+
+.writing-titles a {
+    text-decoration: none;
+}
+
+.writing-titles a:hover {
+    text-decoration: underline;
+}

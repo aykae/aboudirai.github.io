@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Algebra and Algorithms: Restoring Attribution to al-Khwarizmi for his Mathematical Discoveries"
-permalink: /logs/:title/
+permalink: /writing/:title/
 categories: history islam informational
 ---
 
@@ -107,6 +107,11 @@ chalking it up to common knowledge.
 
 The truth is that algebra was not the intuition of your textbook’s authors, nor was it Newton’s. We may, however, look back to our unsung hero, Muhammad ibn Musa al-Khwarizmi, and give credit where credit is due.
 
+<br>
+
+---
+
+<br>
 
 [1] Mustafa Khattab et al. The Clear Quran: A Thematic English Translation of the Message of the
 Final Revelation. Book of Signs Foundation, 2016.
@@ -130,6 +135,12 @@ Renaissance. Penguin Press, 2011.
 [8] Glick, Thomas F., et al. “Arithmetic”. Medieval Science, Technology and Medicine (2006): An
 Encyclopedia. Routledge, 2017.
 
+<br>
+
 ---
 
+<br>
+
 This article was written for *Fenjan*'s Spring 2023 Issue, and can be read [here](https://www.upennfenjan.com/spring2023).
+
+<br>

@@ -1,8 +1,3 @@
-body {
-    background-color: #fff4ef;
-    color: #000000;
-}
-
 .home-container {
     padding: 0% 15% 0% 15% 
     /* overflow: hidden; */
@@ -27,10 +22,6 @@ body {
 .navbar a:hover {
     color: #121212;
     text-decoration: underline;
-}
-
-a {
-    color: #676767;
 }
 
 .home-row {

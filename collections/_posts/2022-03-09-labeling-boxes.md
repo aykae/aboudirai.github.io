@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Labeling Cardboard Boxes: A Contemporary Form of Artistic Expression"
-permalink: /logs/:title/
+permalink: /writing/:title/
 categories: satire misc
 ---
 

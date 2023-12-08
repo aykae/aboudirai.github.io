@@ -1,0 +1,459 @@
+@font-face{
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous-Regular.ttf");
+}
+@font-face{
+    font-family: "Lato-Regular";
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+html, body {
+    background-color: #ffffff;
+    color: #000000;
+
+    /*overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height:100%;
+    width:100%;
+    margin:0;
+    */
+}
+
+p {
+    color: #8e8d8b;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+#network {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    z-index: 0;
+}
+
+/*******************************/
+/*home page*/
+.home-page {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: #8e8d8b;
+    margin: 0;
+    height: 100%;
+}
+
+.floater {
+    font-family: "Righteous-Regular";
+    color: #8e8d8b;
+    opacity: 0.75;
+    font-size: 110px;
+    text-align: center;
+    /* position: relative; */
+    position: block;
+    margin: 10% 0 0 0;
+    animation: float 5s ease-in-out infinite;    
+}
+
+.name {
+    font-family: "Lato-Regular";
+    color: #e4e4e4;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    margin: 10% 0 0 0;
+}
+
+.name p {
+    /* padding-bottom: 10px; */
+    color: #e4e4e4;
+    margin: 0 auto;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(30px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+/*.grow { transition: all .2s ease-in-out; }*/
+.grow:hover { 
+    transform: scale(1.1);
+    /* color: #00ff15; */
+    color: #00b786;
+}
+
+.glow a{
+    transition: all 0.5s ease;
+}
+.glow a:hover{
+    color: #00b786;
+}
+
+.links {
+    position: relative;
+    font-family: "Lato-Regular";
+    margin: 0 auto;
+}
+
+.links i {
+    padding-right: 10px;
+}
+
+.links ul {
+    padding: 0px;
+}
+
+.links li {
+    padding-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    margin-bottom: 80px;
+    color: #e4e4e4;
+    font-size: 25px;
+}
+
+@media screen and (max-device-width: 700px) {
+    .floater {
+        padding: 30% 0 5% 0;
+        font-size: 15em;
+    }
+
+    .links {
+        margin-top: 80px;
+        transform: scale(1.7);
+    }
+    
+    #network canvas{
+        padding-top: 20%;
+        display: inline-block;
+        position: initial;
+        transform: scale(2);
+    }
+}
+
+/*******************************/
+/* Projects CSS */
+
+.proj-container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.proj {
+    font-family: "Lucida Console";
+    font-family: "Trebuchet MS";
+
+    margin-top: 2%;
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+    height:auto;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.proj h1{
+    font-family: "Righteous-Regular";
+    font-family: "Lucida Console";
+    /* color: #00ff15; */
+    /* color: #00b786; */
+    /* color: #343434; */
+    color: #e4e4e4;
+    font-size: 60px;
+
+    margin-bottom: 10%;
+    text-align: left;
+}
+
+.proj h2 {
+    color: #00b786;
+    font-size: 35px;
+    margin: 0;
+}
+.proj h3 {
+    color: #00b786;
+    font-size: 20px;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.proj p {
+    margin-top: 25px;
+    text-justify: inter-word;
+}
+
+.proj .date {
+    margin-top: 5px;
+    opacity: 50%;
+}
+
+.proj a {
+    text-decoration: none;
+}
+
+.desc-link {
+    color: #00b786;
+    transition: all 0.5s ease;
+}
+
+.desc-link:hover {
+    color: #8e8d8b;
+}
+
+.link:hover {
+    /* color: #00ff15; */
+    color: #00b786;
+    transition: all 0.5s ease;
+}
+
+.proj-unit hr{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    opacity: 25%;
+}
+
+.proj-text {
+    display:inline-block;
+}
+.proj-vid {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.proj-img{
+    text-align: center;
+}
+
+.holder {
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+.clip {
+    /* Clip edges, as some of the lines don't terminate nicely. */
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    color:#00ff15;
+    width: 200px;
+    height: 20px;
+    background: radial-gradient(16px, transparent, transparent 4px, #00ff15 4px, #00ff15 10px, transparent 11px);
+    background-size: 30px 40px;
+}
+
+.circle2 {
+    /* Offset to make squigglies line up */
+    top: 20px;
+    left: 15px;
+    background-position: 0px -20px;
+}
+
+@media (min-width: 1000px) {
+    .proj {
+        width: 30%;
+    }
+}
+
+
+/*******************************/
+/* Blog CSS */
+.blog-container {
+    font-family: "Lato-Regular";
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+
+    width: 100%;
+} 
+
+.blog-container h1 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 50px;
+    color: #e4e4e4;
+    font-weight: normal;
+}
+
+.blog-container h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    color: #e4e4e4;
+    font-weight: normal;
+}
+
+.blog-container h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-container a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-size: 14px;
+}
+
+.blog-container a{
+    transition: all 0.5s ease;
+}
+
+.blog-container a:hover{
+    color: #00b786;
+}
+
+.blog-item {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+
+/* Post CSS */
+.post-container {
+    width: 50% !important;
+    font-family: "Tahoma";
+
+    padding-top: 15px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+.post-container h1 {
+    /* font-family: "Lato-Regular"; */
+    font-weight: normal;
+    margin:0;
+    /* color: #e1e1e1; */
+    color: #8e8d8b;
+}
+
+.post-container h2 {
+}
+
+.post-container abbr {
+    /* font-family: "Lato-Regular"; */
+    /* color: #d8d8d8; */
+    font-size: 15px;
+    margin:0;
+}
+
+.post-container p {
+    /* font-family: "Times New Roman"; */
+    font-family: "Tahoma";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    /* color: #e1e1e1; */
+    color: #8e8d8b;
+    margin-bottom: 25px;
+}
+
+.post-container a {
+    color: #00b786;
+    text-decoration: none;
+}
+
+.post-container a:hover {
+    /* color: #d8d8d8; */
+    color: #8e8d8b;
+}
+
+.post-container hr {
+    height: 1px;
+    background-color: #8e8d8b;
+    border: none;
+    color: #8e8d8b;
+}
+.post-content hr {
+    margin: 50px 0;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.highlight {
+    margin: 0;
+}
+
+pre {
+    white-space: pre-wrap;
+    padding: 1em;
+    width: 100%;
+}
+
+@media screen and (max-device-width: 700px) {
+    .post-container {
+        width: 80% !important;
+        padding-right: 0;
+        padding-left: 0;
+
+        margin-top: 15%;
+        margin-bottom: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .post-container {
+        width: 750px;
+    }
+    .blog-container {
+        width: 750px;
+    }
+}
+
+/*******************************/
+/*MOTHER PLANT*/
+.art {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.art video {
+    width: 35%;
+    height: auto;
+}
+
+@media screen and (max-device-width: 700px) {
+    .art {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .art video {
+        width: 95%;
+        height: auto;
+    }
+}

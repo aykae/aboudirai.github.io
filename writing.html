@@ -1,0 +1,22 @@
+---
+layout: base
+title: writing
+---
+<head>
+    <link rel="stylesheet" href="/assets/css/writing.css">
+</head>
+
+<div class="container-fluid writing-container">
+    <h1>Writing</h1>
+    <p>essays // thoughts // stories // ideas</p>
+
+    <div class="writing-titles">
+        {% for post in site.posts %}
+        <a href="{{ post.url }}">
+            <p>
+                {{ post.title }} // {{ post.date | date: "%b %d, %Y" }}
+            </p>
+        </a>
+        {% endfor %}
+    </div>
+</div>
