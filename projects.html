@@ -1,41 +1,50 @@
 ---
 layout: base
+title: Projects
 ---
-<div id="network"></div>
-<div class="proj-container">
-<div class="proj">
-    <h1>projects</h1>
+<head>
+    <link rel="stylesheet" href="/assets/css/projects.css">
+</head>
+
+<div class="container-fluid project-container">
+    <h1>Projects</h1>
+    <div class="project-titles">
         {% for proj in site.data.projects %}
-        <div class = "proj-unit">
-            <div class="proj-text">
-                <h2>{{ proj.name }}</h2>
-                <h3>{{ proj.desc }}</h3>
-                <h3 class="date"><em>{{ proj.date }}</em></h3>
+        <div>
+            <div>
+                <h4 id="{{ proj.name | url_encode }}">{{ proj.name }}</h4>
+                <p>{{ proj.desc }}</p>
+                <p><em>{{ proj.date }}</em></p>
+
                 <p>{{ proj.body }}</p>
                 <p>Tech Stack: {{ proj.tech }}</p>
+
                 {% if proj.code %}
                 <a class="desc-link" href="{{ proj.code }}" target="_blank">[Code]</a>
                 <br><br>
                 {% endif %}
+
                 {% if proj.link %}
                 <a class="desc-link" href="{{ proj.link }}" target="_blank">[Link]</a>
                 <br><br>
                 {% endif %}
+
             </div>
             {% if proj.video %}
-            <div class="proj-vid">
+            <div style="text-align: center;">
                 <iframe width="560" height="315" src="{{ proj.video }}?&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             {% endif %}
             {% if proj.image %}
-                <div class="proj-img">
-                {% for img in proj.image %}
-                    <img src="/assets/img/{{ img }}" width="100%" height="auto">
-                {% endfor %}
+                <div style="text-align: center;">
+                    {% for img in proj.image %}
+                        <img src="/assets/img/{{ img }}" width="100%" height="auto">
+                    {% endfor %}
                 </div>
             {% endif %}
             <hr style="height:2px;border-width:0;color:#8e8d8b; background-color:gray">
         </div>
         {% endfor %}
-</div>
+
+    </div>
 </div>

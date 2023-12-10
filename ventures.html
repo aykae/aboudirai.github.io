@@ -1,0 +1,28 @@
+---
+layout: base
+title: Ventures
+---
+<head>
+    <link rel="stylesheet" href="/assets/css/ventures.css">
+</head>
+
+<div class="container-fluid venture-container">
+    <h1>Ventures</h1>
+    <div class="venture-titles">
+        {% for ven in site.data.ventures %}
+        <div>
+            <div>
+                <h4>{{ ven.name }} | Founded: {{ ven.date_founded }}</h4>
+                <p class="venture-desc">{{ ven.desc }}</p>
+
+                <p>{{ ven.body }}</p>
+
+                {% if ven.proj_link %}
+                    <p>For product information, see <a href="../projects#{{ ven.proj_link | url_encode }}">{{ ven.proj_link }}</a></p>
+                {% endif %}
+            </div>
+            <hr style="height:2px;border-width:0;color:#8e8d8b; background-color:gray">
+        </div>
+        {% endfor %}
+    </div>
+</div>

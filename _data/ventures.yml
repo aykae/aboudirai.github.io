@@ -1,0 +1,16 @@
+
+- name: Lumba Labs
+  desc: Designed, manufactured, and sold decorative lighting products.
+  date_founded: Oct 2022
+  date_closed: Feb 2023
+  body: I founded Lumba Labs in November of 2022 to sell customizable and decorative lighting products to consumers. Our products were sold on <a href="https://www.etsy.com/shop/lumbalabs" target="_blank">Etsy</a>, where we made over 30 sales and generated $460 in revenue.<br><br>The venture was shut down in February of 2023.
+  link: https://www.etsy.com/shop/lumbalabs
+  proj_link: "Starbox"
+
+- name: Tryber, Inc.
+  desc: Ed-tech company providing free study tools for students worldwide.
+  date_founded: Jun 2020
+  date_closed: null
+  body: Released in August of 2020, Tryber’s flagship study tool, EasyA, implemented a spaced-recall review system, where students could review course topics in intervals that maximize information retention.<br><br>Debuting with three popular course curricula (Calclulus I, Introductory Biology, and Introductory Chemistry) users mark topics that they have covered in class, and EasyA would notify them to review the topic at intervals of 1 day, 3 days, 2 weeks, 1 month, etc. A review session would consists of a summary and some quiz questions to test comprehension.<br><br>The is available on the <a href="https://apps.apple.com/us/app/easya-study-smart/id1524170600">App Store</a> and has been downloaded by nearly 8,000 unique users.
+  link: http://tryeasya.com
+  proj_link: "EasyA: Study Smart"
