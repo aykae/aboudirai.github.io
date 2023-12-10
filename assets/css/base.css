@@ -6,3 +6,19 @@ body {
 a {
     color: #676767;
 }
+
+.home-btn {
+    text-align: left;
+    padding: 2% 0% 0% 2%;
+    position: fixed;
+}
+
+.home-btn a {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.home-btn a:hover {
+    text-decoration: underline;
+}

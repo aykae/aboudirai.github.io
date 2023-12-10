@@ -23,6 +23,11 @@
     {% seo %}
 </head>
 <body>
+    {% if page.title != "Home" %}
+        <div class="home-btn">
+            <a href="{{site.url}}">&larr; AK Rai</a>
+        </div>
+    {% endif %}
     {{ content }}        
 </body>
 </html>
