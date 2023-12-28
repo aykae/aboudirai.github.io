@@ -23,8 +23,12 @@
     {% seo %}
 </head>
 <body>
-    {% if page.title != "Home" %}
-        <div class="home-btn">
+    {% if page.layout == "post" %}
+        <div class="back-btn">
+            <a href="{{site.url}}/writing">&larr; Other writing</a>
+        </div>
+    {% elsif page.title != "Home" %}
+        <div class="back-btn">
             <a href="{{site.url}}">&larr; AK Rai</a>
         </div>
     {% endif %}
