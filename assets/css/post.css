@@ -3,6 +3,12 @@
     padding: 3% 25% 10% 25%;
 }
 
+@media screen and (max-width: 600px) {
+    .post-container {
+        padding: 10% 3% 10% 3%;
+    }
+}
+
 .post-info {
     display: flex;
     justify-content: space-between;

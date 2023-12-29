@@ -1,5 +1,6 @@
 .home-container {
-    padding: 0% 15% 0% 15% 
+    padding: 0% 15% 0% 15%;
+
     /* overflow: hidden; */
 
     /* Verticall center contents */
@@ -29,11 +30,32 @@
     text-align: left;
 }
 
-.col {
+.content {
+    margin: 3% 0 0 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .home-container {
+        padding: 8% 3% 20% 3%;
+    }
+
+    .content {
+        margin: 3% 0 0% 0;
+
+        flex-direction: column-reverse;
+    }
+
+    .caption {
+        font-size: small;
+    }
 }
 
 .sidebar {
     display: none;
 }
 
-@media (min-width: 576px) {}
