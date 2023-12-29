@@ -1,4 +1,9 @@
 
 .post-container {
-    padding: 3% 25% 5% 25%;
+    padding: 3% 25% 10% 25%;
+}
+
+.post-info {
+    display: flex;
+    justify-content: space-between;
 }
