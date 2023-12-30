@@ -142,5 +142,3 @@ Encyclopedia. Routledge, 2017.
 <br>
 
 This article was written for *Fenjan*'s Spring 2023 Issue, and can be read [here](https://www.upennfenjan.com/spring2023).
-
-<br>

@@ -10,8 +10,30 @@ layout: base
         <p style="text-align: left;">by A.K. Rai</p>
         <p style="text-align: right;"><i>Published on {{ page.date | date: "%b %d, %Y" }}</i></p>
     </div>
-    <hr>
-    <div class="post-content">
-    <p>{{ content }}</p>
+
+    {% if page.image %}
+    <div class="image-container">
+        <img src="/assets/img/posts/{{ page.image }}"/>
+        <p class="caption" style="width: 100%; color: #a3a3a3"><i>DALL-E. Prompt: A futuristic bank vault with large piles of green coins all imprinted with a crescent moon, ambient green light filling the room, with futuristic devices lining the walls.</i></p>
     </div>
+    {% endif %}
+
+    <hr>
+
+    <div class="post-content">
+        <p>{{ content }}</p>
+    </div>
+
+    <hr style="margin: 5% 0 5% 0; padding: 0;">
+
+    <div class="post-footer">
+        {% if site.posts.first.url != page.url %}
+        <p>Check out my latest piece, <a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a> or the rest of my <a href="{{ site.url }}/writing">writing</a>.</p>
+        {% else %}
+        <p>Check out my previous piece, <a href="{{ site.posts[1].url }}">{{ site.posts[1].title }}</a> or the rest of my <a href="{{ site.url }}/writing">writing</a>.</p>
+        {% endif %}
+
+        <p>For updates on my latest writing, follow me on <a href="https://twitter.com/aykae_r" target="_blank">Twitter</a>.</p>
+    </div>
+
 </div>

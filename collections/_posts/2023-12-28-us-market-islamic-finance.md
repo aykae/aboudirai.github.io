@@ -2,6 +2,7 @@
 layout: post
 title: "The Untapped U.S. Market for Islamic Finance"
 permalink: /writing/:title/
+image: "isfi-cover.png"
 categories: finance fintech islamic-finance entrepreneurship
 ---
 
@@ -19,4 +20,4 @@ It is also important to understand that the ethics on which Islamic finance is b
 
 Risk-sharing sets a foundation on which other ethical financial practices can replace their conventional counterparts. Interest-bearing loans are replaced with asset-backed contracts that can be paid back in installments or as a lump sum. Until it is paid off, the asset is proportionally owned by both parties, and thus any calamities that befall the asset affect both parties, proportionally. While a defaulted loan repayment incurs late fees or, God forbid, the precipitous fees of compound interest, an ethical asset-backed contract specifies the total amount owed at the time of the contract’s signing—a customer’s default is a risk that the financier accepts rather than profits from.
 
-The more I read about Islamic Finance and its untapped market in the U.S., the more bullish I become about the the future of the space. While I can concede that competing with the big U.S. banks on the basis of providing an ethical alternative to their financial products is a bit far-fetched short-term, I can’t seem to find a convincing reason why a suite of fintech companies couldn’t sufficiently meet the financial needs of the Muslim-American market. And of course, any seeker of a higher ethical standard in their day-to-day finances will be welcomed with open arms.
+The more I read about Islamic Finance and its untapped market in the U.S., the more bullish I become about the future of the space. While I can concede that competing with the big U.S. banks on the basis of providing an ethical alternative to their financial products is a bit far-fetched short-term, I can’t seem to find a convincing reason why a suite of fintech companies couldn’t sufficiently meet the financial needs of the Muslim-American market. And of course, any seeker of a higher ethical standard in their day-to-day finances will be welcomed with open arms.

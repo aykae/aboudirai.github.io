@@ -3,6 +3,20 @@
     padding: 3% 25% 10% 25%;
 }
 
+.post-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container {
+    padding: 3% 7% 0% 7%;
+}
+
+.image-container img {
+    /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); */
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 600px) {
     .post-container {
         padding: 10% 3% 10% 3%;
