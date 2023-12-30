@@ -14,11 +14,13 @@ title: Writing
 
     <div class="writing-titles">
         {% for post in site.posts %}
-        <a href="{{ post.url }}">
-            <p>
-                {{ post.title }} // {{ post.date | date: "%b %d, %Y" }}
-            </p>
-        </a>
+        <div class="writing-title">
+            <a href="{{ post.url }}">
+                <p>
+                    {{ post.title }} <b>//</b> {{ post.date | date: "%b %d, %Y" }}
+                </p>
+            </a>
+        </div>
         {% endfor %}
     </div>
 </div>

@@ -2,7 +2,7 @@
 layout: post
 title: "The Untapped U.S. Market for Islamic Finance"
 permalink: /writing/:title/
-image: "isfi-cover.png"
+image: "/assets/img/posts/isfi-cover.png"
 categories: finance fintech islamic-finance entrepreneurship
 ---
 

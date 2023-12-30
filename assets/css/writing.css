@@ -4,13 +4,17 @@
 }
 
 .writing-titles {
-    margin: 10% 0 0 0;
+    margin: 5% 0 0 0;
 }
 
-.writing-titles a {
+.writing-title {
+    padding: 2%;
+}
+
+.writing-title a {
     text-decoration: none;
 }
 
-.writing-titles a:hover {
+.writing-title a:hover {
     text-decoration: underline;
 }
