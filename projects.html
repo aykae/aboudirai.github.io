@@ -8,43 +8,44 @@ title: Projects
 
 <div class="container-fluid project-container">
     <h1>Projects</h1>
-    <div class="project-titles">
+    <div class="row project-items">
         {% for proj in site.data.projects %}
-        <div>
-            <div>
-                <h4 id="{{ proj.name | url_encode }}">{{ proj.name }}</h4>
+        <div class="col-md-6">
+            <div class="project-item">
+                <h4 id="{{ proj.name | url_encode }}">{{ proj.name }}</h4><p>{{ proj.date }}</p>
                 <p>{{ proj.desc }}</p>
-                <p><em>{{ proj.date }}</em></p>
+                <!-- <p>{{ proj.body }}</p> -->
+                {% if proj.cover-image %}
+                <img style="width: 100%; height:auto;" src="{{ site.url }}/assets/img/{{ proj.cover-image }}"/>
+                {% endif %}
 
-                <p>{{ proj.body }}</p>
-                <p>Tech Stack: {{ proj.tech }}</p>
+                <div class="stack-items">
+                    {% for tech in proj.tech %}
+                    <div class="stack-item">
+                        <p>{{ tech }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
 
                 {% if proj.code %}
                 <a class="desc-link" href="{{ proj.code }}" target="_blank">[Code]</a>
-                <br><br>
                 {% endif %}
 
                 {% if proj.link %}
                 <a class="desc-link" href="{{ proj.link }}" target="_blank">[Link]</a>
-                <br><br>
                 {% endif %}
-
             </div>
-            {% if proj.video %}
+            <!-- {% if proj.video %}
             <div style="text-align: center;">
                 <iframe width="560" height="315" src="{{ proj.video }}?&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            {% endif %}
-            {% if proj.image %}
-                <div style="text-align: center;">
-                    {% for img in proj.image %}
-                        <img src="/assets/img/{{ img }}" width="100%" height="auto">
-                    {% endfor %}
-                </div>
-            {% endif %}
-            <hr style="height:2px;border-width:0;color:#8e8d8b; background-color:gray">
+            {% endif %} -->
         </div>
+        {% assign index_modulo = forloop.index | modulo: 2 %}
+        {% if index_modulo == 0 %}
+        </div>
+        <div class="row">
+        {% endif %}
         {% endfor %}
-
     </div>
 </div>

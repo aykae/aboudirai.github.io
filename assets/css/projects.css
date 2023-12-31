@@ -1,7 +1,50 @@
 .project-container {
-    padding: 3% 25% 0% 25%;
+    padding: 3% 25% 10% 25%;
 }
 
-.project-titles {
+.project-items {
     margin-top: 5%;
+}
+
+.project-item {
+    padding: 5%;
+    margin: 5% 0 5% 0;
+
+    border: 3px solid #dacfcb;
+    border-radius: 15px;
+}
+
+.project-item:hover {
+    border: 3px solid #b6aaa5;
+}
+
+.stack-items {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 5% 0 5% 0;
+}
+
+.stack-item {
+    border: 2px solid #b6aaa5;
+    border-radius: 10px;
+
+    font-size: small;
+    font-weight: bold;
+
+    padding: 1% 2% 1% 2%;
+    margin: 0 2% 0 2%;
+}
+
+.stack-item p {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .project-container {
+        padding: 8% 3% 20% 3%;
+    }
+    .project-item {
+        border-radius: 20px;
+    }
 }
