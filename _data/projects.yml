@@ -1,4 +1,20 @@
 
+- name: Minicoin
+  date: DEC 2023
+  desc: Lightweight C++ implementation of the Bitcoin protocol.
+  tech:
+    - C++
+    - HTML/CSS
+    - JavaScript
+  code: https://github.com/aykae/minicoin
+  link: https://x.com/aykae_r/status/1740359971630702920?s=20
+
+- name: Crypto Arbitrage Bot
+  date: NOV 2023
+  tech:
+    - Python
+    - Coinbase Pro API
+
 - name: SentGen
   date: JULY 2023
   desc: Generative English grammar that produces random sentences.
