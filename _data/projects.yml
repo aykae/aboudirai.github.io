@@ -28,7 +28,10 @@
   desc: Dynamic Decorative Lighting for Stargazers
   body: "My first polished commercial product, Starbox is a dynamic light display that continuously generates random star clusters of different sizes, colors, and brightness. Rare shooting stars are also generated and displayed. Device enclosure was modeled in Fusion 360. Star generation and HUB75 light display written in Python. Available now at my Etsy shop linked below! As of February 2023, we have sold 5 Starbox units!"
   date: "OCT 2022"
-  tech: Python, Fusion 360, HUB75 LED Matrices
+  tech:
+    - Python
+    - Fusion 360
+    - HUB75 LEDs
   code: https://github.com/aykae/starbox/blob/master/starbox/stars.py
   link: https://www.etsy.com/shop/lumbalabs
   image: 
@@ -42,7 +45,9 @@
   desc: An LED modification for my WowGo electric longboard.
   body: I wired up an accelerometer, an individually addressable LED strip, and a 6V battery pack. Then, I modeled a closed case for this arrangement in Blender, 3D printed it, and screwed it to the bottom of my board, where its other electronics lay. The lights are fully programmable, and can react to the motion data captured by the accelerometer.
   date: AUG 2022
-  tech: Arduino (C/C++), Blender
+  tech:
+    - Arduino (C/C++)
+    - Blender
   code: https://github.com/aykae/wowglow/blob/master/wowglow/wowglow.ino
   video: https://www.youtube.com/embed/6cUNDhWu8Co
 
@@ -50,14 +55,18 @@
   desc: A smooth blending of three animations captured on a Vicon MoCap System
   body: Using the University of Pennsylvania SIG Lab's Vicon Motion Capture System, I recorded three separate MoCap scenes. Using the captured data and Autodesk MotionBuilder, I applied the data onto a rigged character model, and then blended the transition between the three scenes so that the result is a realistically continuous animation.
   date: "NOV 2022"
-  tech: Vicon MoCap System, Autodesk MotionBuilder
+  tech:
+    - Vicon MoCap
+    - Autodesk MotionBuilder
   video: https://www.youtube.com/embed/mUDY0mhlINU
 
 - name: FK/IK System
   date: "OCT 2022"
   desc: Forward and inverse kinematics system for character animation
   body: Given an input of keyframed joint angles for various animations, I implemented the Forward Kinematics and their interpolation for a rigged character model. Two Inverse Kinematics techniques were also implemented, Limb-Based IK and Cyclic Coordinate Descent (CCD) IK to allow joint angle computation given a target position of a joint. This project was assigned in my Computer Animation course (CIS5620). Source code is privated due to course integrity restrictions. Feel free to email hi@aykae.com for access.
-  tech: OpenGL (C++)
+  tech:
+    - C++
+    - OpenGL
   video: https://www.youtube.com/embed/FKyROqe1biU
 
 - name: Chowder Character Model
@@ -72,7 +81,9 @@
   date: "JAN 2020"
   desc: Filter for random Penn State college selection
   body: Implementing the node-based programming of SparkAR, combined with the various Penn State College frames I designed in Photoshop, I was able to create a roulette type animation that concluded with a randomly selected college for the filter user. The first filter published to Onward State's Instagram, it garnered roughly 100,000 impressions via 50,000 videos created.
-  tech: SparkAR (now Meta Spark), Adobe Photoshop
+  tech:
+    - SparkAR
+    - Photoshop
   image: 
     - "osfilter.gif"
 
@@ -80,7 +91,10 @@
   desc: Device that unlocks MasterLock w/ Digital Keypad
   body: Back during my sophomore year of high school, I attended the University of Pennsylvania's hackathon, PennAppsXV, and worked on a device that swiftly opened a rotary Masterlock based on digital keypad input. I 3D printed a piece that latched onto both the shaft of a stepper motor and the dial of the Masterlock. With an Arduino, I was able to translate digital keyboard input of the lock's combination and convert that into corresponding rotations that opened the lock with great speed. In typical hackathon fashion, the enclosure for the device was intricately constructed out of cardboard and electrical tape.
   date: JAN 2017
-  tech: Arduino (C/C++), Cardboard, Tape
+  tech:
+    - Arduino (C/C++)
+    - Cardboard
+    - Tape
   code: https://github.com/aykae/UnlockME/blob/master/UnlockMe.ino
   image: 
     - "unlockme.gif"
@@ -89,7 +103,9 @@
   date: "NOV 2019"
   desc: Onward State's first interactive app
   body: Intended to show the collective staff prediction of Penn State's College Football Playoff chances based on the variable outcome of their next three games, this Javascript app was the first of its kind to be published on the Penn State blog, Onward State. Developed using JavaScript Canvas and Adobe Photoshop, this app allowed Penn Staters to simulate all possible outcomes of their football team for the tailend of the 2019 season.
-  tech: JavaScript, Adobe Photoshop
+  tech:
+    - JavaScript
+    - Photoshop
   code: https://github.com/aykae/cfb-bracket-app 
   link: https://onwardstate.com/2019/11/15/penn-state-footballs-bowl-game-predictor/
   image: 
