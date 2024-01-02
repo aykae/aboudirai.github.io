@@ -13,16 +13,8 @@ title: Projects
         <div class="col-md-6">
             <div class="project-item">
                 <h4 id="{{ proj.name | url_encode }}">{{ proj.name }}</h4><p>{{ proj.date }}</p>
-                <p>{{ proj.desc }}</p>
-                <!-- <p>{{ proj.body }}</p> -->
-                {% if proj.cover-image %}
-                <img style="width: 100%; height:auto; border-radius: 5px;" src="{{ site.url }}/assets/img/{{ proj.cover-image }}"/>
-                {% elsif proj.video %}
-                <div style="width: 100%; height:auto; text-align: center;">
-                    <iframe src="{{ proj.video }}?&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                {% endif %}
 
+                <!-- Cover Image -->
                 <div class="stack-items">
                     {% for tech in proj.tech %}
                     <div class="stack-item">
@@ -31,8 +23,37 @@ title: Projects
                     {% endfor %}
                 </div>
 
+                <p>{{ proj.desc }}</p>
+
+                <!-- Cover Image -->
+                <div class="cover">
+                    {% if proj.cover-image %}
+                    <img style="width: 100%; height:auto; border-radius: 5px;" src="{{ site.url }}/assets/img/{{ proj.cover-image }}"/>
+                    {% elsif proj.video %}
+                    <div style="width: 100%; height:auto; text-align: center;">
+                        <iframe src="{{ proj.video }}?&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    {% endif %}
+                </div>
+                
+                <!-- Body -->
+                {% if proj.body %}
+                <div class="project-body">
+                    <!-- <button onclick="toggleContent()">▼ <span style="text-decoration: underline;">Read more</span></button> -->
+                    <button id="button-{{ forloop.index }}" onclick="toggleContent('content-{{ forloop.index }}', 'button-{{ forloop.index }}')">▼ More info</button>
+                    <div class="body-content" id="content-{{ forloop.index }}" style="display: none;">
+                        <p>{{ proj.body }}</p>
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Links -->
                 {% if proj.code %}
                 <a class="desc-link" href="{{ proj.code }}" target="_blank">[Code]</a>
+                {% endif %}
+
+                {% if proj.demo %}
+                <a class="desc-link" href="{{ proj.demo }}" target="_blank">[Demo]</a>
                 {% endif %}
 
                 {% if proj.link %}
@@ -48,3 +69,19 @@ title: Projects
         {% endfor %}
     </div>
 </div>
+
+<script>
+    function toggleContent(projectId, buttonId) {
+        var content = document.getElementById(projectId);
+        var button = document.getElementById(buttonId);
+
+        if (content.style.display === "none") {
+            content.style.display = "block";
+            button.textContent = "▲ Collapse";
+        }
+        else {
+            content.style.display = "none";
+            button.textContent = "▼ More info";
+        }
+    }
+</script>

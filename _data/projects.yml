@@ -7,13 +7,14 @@
     - HTML/CSS
     - JavaScript
   code: https://github.com/aykae/minicoin
-  link: https://x.com/aykae_r/status/1740359971630702920?s=20
+  demo: https://x.com/aykae_r/status/1740359971630702920?s=20
+  cover-image: "bitcoin.png"
 
-- name: Crypto Arbitrage Bot
-  date: NOV 2023
-  tech:
-    - Python
-    - Coinbase Pro API
+# - name: Crypto Arbitrage Bot
+#   date: NOV 2023
+#   tech:
+#     - Python
+#     - Coinbase Pro API
 
 - name: SentGen
   date: JULY 2023
@@ -23,7 +24,7 @@
     - Python
     - AWS Lambda
   code: https://github.com/aykae/compling/blob/master/clsite/clapps/compling/generator.py
-  link: /compling
+  demo: /compling
   image:
     - "sentgen.gif"
   cover-image: "sentgen.gif"
