@@ -10,11 +10,22 @@
   demo: https://x.com/aykae_r/status/1740359971630702920?s=20
   cover-image: "bitcoin.png"
 
-# - name: Crypto Arbitrage Bot
-#   date: NOV 2023
-#   tech:
-#     - Python
-#     - Coinbase Pro API
+- name: Crypto Arbitrage Bot
+  date: NOV 2023
+  desc: Exploring arbitrage opportunities for cryptocurrency triplets.
+  tech:
+    - Python
+  code: https://github.com/aykae/algo-trading/tree/master/crypto-arbitrage
+  cover-image: "crypto-arbitrage-cover.png"
+
+- name: Islamic Geometry Houdini Node
+  date: NOV 2023
+  desc: Procedural Islamic Geometry carving tool for Houdini.
+  tech:
+    - Houdini
+  link: https://github.com/aykae/procedural-islamic-geometry
+  demo: https://www.youtube.com/watch?v=sME_ZO3Bp3c
+  cover-image: "is-geo-cover.jpg"
 
 - name: SentGen
   date: JULY 2023
