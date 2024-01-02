@@ -9,68 +9,24 @@ title: Projects
 <div class="container-fluid project-container">
     <h1>Projects</h1>
     <div class="row project-items">
-        <!-- {% assign half = site.data.projects.size | divided_by:2 %}
+        {% assign half = site.data.projects.size | divided_by:2 %}
         {% assign projects1 = site.data.projects | slice: 0, half %}
-        {% assign projects2 = site.data.projects | slice: half, site.data.projects.size %} -->
+        {% assign projects2 = site.data.projects | slice: half, site.data.projects.size %}
 
-        {% for proj in site.data.projects %}
+        <!-- col 1 -->
         <div class="col-md-6">
-            <div class="project-item">
-                <h4 id="{{ proj.name | url_encode }}">{{ proj.name }}</h4><p>{{ proj.date }}</p>
-
-                <!-- Cover Image -->
-                <div class="stack-items">
-                    {% for tech in proj.tech %}
-                    <div class="stack-item">
-                        <p>{{ tech }}</p>
-                    </div>
-                    {% endfor %}
-                </div>
-
-                <p>{{ proj.desc }}</p>
-
-                <!-- Cover Image -->
-                <div class="cover">
-                    {% if proj.cover-image %}
-                    <img style="width: 100%; height:auto; border-radius: 5px;" src="{{ site.url }}/assets/img/{{ proj.cover-image }}"/>
-                    {% elsif proj.video %}
-                    <div style="width: 100%; height:auto; text-align: center;">
-                        <iframe src="{{ proj.video }}?&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    {% endif %}
-                </div>
-                
-                <!-- Body -->
-                {% if proj.body %}
-                <div class="project-body">
-                    <!-- <button onclick="toggleContent()">▼ <span style="text-decoration: underline;">Read more</span></button> -->
-                    <button id="button-{{ forloop.index }}" onclick="toggleContent('content-{{ forloop.index }}', 'button-{{ forloop.index }}')">▼ More info</button>
-                    <div class="body-content" id="content-{{ forloop.index }}" style="display: none;">
-                        <p>{{ proj.body }}</p>
-                    </div>
-                </div>
-                {% endif %}
-
-                <!-- Links -->
-                {% if proj.code %}
-                <a class="desc-link" href="{{ proj.code }}" target="_blank">[Code]</a>
-                {% endif %}
-
-                {% if proj.demo %}
-                <a class="desc-link" href="{{ proj.demo }}" target="_blank">[Demo]</a>
-                {% endif %}
-
-                {% if proj.link %}
-                <a class="desc-link" href="{{ proj.link }}" target="_blank">[Link]</a>
-                {% endif %}
-            </div>
-        </div>
-        {% assign index_modulo = forloop.index | modulo: 2 %}
-        {% if index_modulo == 0 %}
-        </div>
-        <div class="row">
-        {% endif %}
+        {% for proj in projects1 %}
+            {% include project-item.html %}
         {% endfor %}
+        </div>
+
+        <!-- col 2 -->
+        <div class="col-md-6">
+        {% for proj in projects2 %}
+            {% include project-item.html %}
+        {% endfor %}
+        </div>
+
     </div>
 </div>
 
