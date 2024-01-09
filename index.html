@@ -7,9 +7,9 @@ title: Home
 </head>
 
 <div class="container-fluid home-container">
-    <h1 style="text-align: center; padding-top: 3%;">Abdul-Karim Rai</h1>
+    <h1 class="name">Abdul-Karim Rai</h1>
 
-    <ul class="navbar" style="list-style-type: none; padding-top: 3%;">
+    <ul class="navbar">
         <li>🏗️ <a href="ventures">Ventures</a></li>
         <li>🔧 <a href="projects">Projects</a></li>
         <li>📝 <a href="writing">Writing</a></li>
@@ -21,14 +21,29 @@ title: Home
         <div class="col" style="text-align: left">
             <h3>My name is AK.</h3>
             <p>
-                I’m currently pursuing my Master’s at the University of Pennsylvania in Computer Graphics. Previously, I received my Bachelor’s in Computer Science from Penn State. Lately, I’ve been interested in Bitcoin, NLP, and Islamic Finance (IsFi). I am determined to use IsFi to make usury-free financial instruments accessible to the everyday American.
+                I’m currently pursuing my M.S.E. at the University of Pennsylvania in Computer Science & Computer Graphics. I also hold a B.S. in Computer Science from Penn State. Lately, I’ve been interested in Bitcoin, Islamic Finance (IsFi), and markets. I am determined to use IsFi to make usury-free financial instruments accessible to the everyday American.
+
                 <br><br>
+
                 I am on the development committee for <a href="https://www.franklindao.xyz/">FranklinDAO</a>, where I design and develop blockchain applications. I also write for <a href="https://www.upennfenjan.com/spring2023">Fenjan</a>, UPenn’s Middle East Journal.
+                
                 <br><br>
-                I’m Lebanese-Palestinian-American 🇺🇸 🇱🇧 🇵🇸, born and raised in the great state of New Jersey. Aside from my entrepreneurial goals, I’m an aspiring polyglot with goals of proficiency in Arabic, French, and Mandarin, in that order.
+
+                {% if site.posts.first %}
+                I write out my ideas. Here's my latest essay: 
+                <a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a> and the rest of my <a href="{{ site.url }}/writing">writing</a>.
+                {% endif %}
+
                 <br><br>
+
+                I’m <a href="https://en.wikipedia.org/wiki/Sidon">Lebanese</a>-<a href="https://en.wikipedia.org/wiki/Acre,_Israel">Palestinian</a>-<a href="https://en.wikipedia.org/wiki/Bergen_County,_New_Jersey">American</a> 🇺🇸 🇱🇧 🇵🇸. Aside from my entrepreneurial goals, I’m an aspiring polyglot with goals of proficiency in Arabic, French, and Mandarin, in that order.
+
+                <br><br>
+
                 Check out my socials: <a href="https://twitter.com/aykae_r" target="_blank">Twitter</a> // <a href="https://github.com/aykae" target="_blank">GitHub</a> // <a href="https://www.linkedin.com/in/abdul-karim-rai-0a77a0193/" target="_blank">LinkedIn</a> // <a href="https://www.goodreads.com/user/show/144468818-aykae" target="_blank">Goodreads</a>
+
                 <br><br>
+
                 Contact me via <a href="mailto:hi@aykae.com">hi@aykae.com</a> or <a href="https://twitter.com/aykae_r" target="_blank">Twitter DM</a>.
             </p>
         </div>
