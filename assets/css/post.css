@@ -8,6 +8,10 @@
     height: auto;
 }
 
+.post-container h3 {
+    margin: 0 0 1rem 0;
+}
+
 .image-container {
     padding: 3% 7% 0% 7%;
 }

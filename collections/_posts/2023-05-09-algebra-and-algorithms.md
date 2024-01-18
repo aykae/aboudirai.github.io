@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Algebra and Algorithms: Restoring Attribution to al-Khwarizmi for his Mathematical Discoveries"
+title: "Algebra and Algorithms"
+subtitle: "Restoring Attribution to al-Khwarizmi for his Mathematical Discoveries"
 permalink: /writing/:title/
 categories: history islam informational
 ---
