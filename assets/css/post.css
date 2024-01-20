@@ -25,9 +25,16 @@
     .post-container {
         padding: 10% 3% 10% 3%;
     }
+    .image-container {
+        padding: 3% 0% 0% 0%;
+    }
 }
 
 .post-info {
     display: flex;
     justify-content: space-between;
+}
+
+.post-content {
+    margin: 5% 0 0 0;
 }

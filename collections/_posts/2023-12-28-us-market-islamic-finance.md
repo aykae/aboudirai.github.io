@@ -2,8 +2,10 @@
 layout: post
 title: "The Untapped U.S. Market for Islamic Finance"
 permalink: /writing/:title/
-image: "/assets/img/posts/isfi-cover.png"
 categories: finance fintech islamic-finance entrepreneurship
+image: "/assets/img/posts/isfi-cover.png"
+caption: "Source: DALL-E."
+
 ---
 
 My first exposure to Islamic Finance was about one year ago when I met a guy in college who was rather knowledgeable on the topic. He explained to me that he had taken a gap semester to pursue an opportunity running his own asset management firm. Clients would allocate a portion of their wealth to his firm, and he would invest on their behalf promising some level of return that ostensibly exceeded that of index funds or savings account interest payments. There was a twist, though. His clients expected that the investment of their money be strictly compliant with [Sharia law](https://en.wikipedia.org/wiki/Sharia). Short selling, derivatives trading, and investing in vice companies (e.g., those dealing with alcohol, gambling, pornography, etc.) were all strictly ruled out from his investment strategy.
