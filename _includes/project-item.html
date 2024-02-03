@@ -26,9 +26,8 @@
 <!-- Body -->
 {% if proj.body %}
 <div class="project-body">
-    <!-- <button onclick="toggleContent()">▼ <span style="text-decoration: underline;">Read more</span></button> -->
-    <button id="button-{{ forloop.index }}" onclick="toggleContent('content-{{ forloop.index }}', 'button-{{ forloop.index }}')">▼ More info</button>
-    <div class="body-content" id="content-{{ forloop.index }}" style="display: none;">
+    <button id="button-{{ forloop.index }}-{{ include.col }}" onclick="toggleContent('content-{{ forloop.index }}-{{ include.col }}', 'button-{{ forloop.index }}-{{ include.col }}')">▼ More info</button>
+    <div class="body-content" id="content-{{ forloop.index }}-{{ include.col }}" style="display: none;">
         <p>{{ proj.body }}</p>
     </div>
 </div>

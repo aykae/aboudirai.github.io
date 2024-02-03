@@ -8,14 +8,14 @@ title: Projects
 
 <div class="container-fluid project-container">
     <h1>Projects</h1>
-    <div class="row project-items">
+    <div class="row project-items" id="double-col-container">
 
         <!-- col 1 -->
         <div class="col-md-6">
         {% for proj in site.data.projects %}
             {% assign modval = forloop.index | modulo: 2 %}
             {% if modval == 1 %}
-                {% include project-item.html %}
+                {% include project-item.html col="double" %}
             {% endif %}
         {% endfor %}
         </div>
@@ -25,11 +25,19 @@ title: Projects
         {% for proj in site.data.projects %}
             {% assign modval = forloop.index | modulo: 2 %}
             {% if modval == 0 %}
-                {% include project-item.html %}
+                {% include project-item.html col="double" %}
             {% endif %}
         {% endfor %}
         </div>
 
+    </div>
+
+    <div class="row project-items" id="single-col-container">
+        <div class="col-md-12">
+            {% for proj in site.data.projects %}
+                {% include project-item.html col="single" %}
+            {% endfor %}
+        </div>
     </div>
 </div>
 
@@ -47,4 +55,28 @@ title: Projects
             button.textContent = "▼ More info";
         }
     }
+    document.addEventListener('DOMContentLoaded', function() {
+        //varying column order
+        function renderProjects() {
+            var singleCol = document.getElementById('single-col-container');
+            var doubleCol = document.getElementById('double-col-container');
+
+            console.log("rendering projects");
+
+            if (window.innerWidth < 700) {
+                // console.log("narrow screen");
+                // console.log(window.innerWidth);
+                singleCol.style.display = "";
+                doubleCol.style.display = "none";
+            }
+            else {
+                // console.log("wide screen");
+                singleCol.style.display = "none";
+                doubleCol.style.display = "";
+            }
+        }
+
+        renderProjects();
+        window.addEventListener('resize', renderProjects);
+    });
 </script>

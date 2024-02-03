@@ -16,9 +16,7 @@ title: Writing
         {% for post in site.posts %}
         <div class="writing-title">
             <a href="{{ post.url }}">
-                <p>
-                    {{ post.title }} <b>//</b> {{ post.date | date: "%b %d, %Y" }}
-                </p>
+                <p>- {{ post.title }} <b>//</b> {{ post.date | date: "%b %d, %Y" }}</p>
             </a>
         </div>
         {% endfor %}

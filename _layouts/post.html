@@ -15,7 +15,10 @@ layout: base
     {% if page.image %}
     <div class="image-container">
         <img src="{{ site.url }}{{ page.image }}"/>
-        <p class="caption" style="width: 100%; color: #a3a3a3"><i>DALL-E. Prompt: A futuristic bank vault with large piles of green coins all imprinted with a crescent moon, ambient green light filling the room, with futuristic devices lining the walls.</i></p>
+        <p class="caption" style="width: 100%; color: #a3a3a3">
+            {% if page.caption %}
+            <i>{{ page.caption }}</i></p>
+            {% endif %}
     </div>
     {% endif %}
 

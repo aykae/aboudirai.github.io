@@ -4,11 +4,13 @@ title: "The Mutual Guarantee Insurance Model"
 subtitle: A Sharia-compliant, ethical alternative to conventional insurance.
 permalink: /writing/:title/
 categories: finance fintech islamic-finance insurance entrepreneurship
+image: "/assets/img/posts/isinsurance-cover.jpg"
+caption: "Source: DALL-E. Edited by A.K. Rai."
 ---
 
 ### Overview
 
-This paper gives a concise, high-level outline of the mutual guarantee insurance model, more commonly known in industry as *takaful*, the Arabic word roughly translating to “mutual guarantee”. Throughout this paper, we will refer to it as the mutual guarantee model (MGM). MGM was originally developed by Islamic financiers as an alternative for the global ~2 billion person Muslim market for whom conventional insurance is religiously forbidden. However, MGM is in no way limited to the Muslim community. In fact, in this paper, we go so far as to argue that MGM provides a more ethical system of insuring assets and risks, void of the uncertainty and gambles posed by its conventional counterpart. We outline what fundamental properties of conventional insurance models make them prohibited in Islam (and how these very properties harm non-Muslims, as well as Muslims), followed by how MGM works to protect policyholders, and finally the roles of the various stakeholders involved in MGM.
+This short white paper gives a concise, high-level outline of the mutual guarantee insurance model, more commonly known in industry as *takaful*, the Arabic word roughly translating to “mutual guarantee”. Throughout this paper, we will refer to it as the mutual guarantee model (MGM). MGM was originally developed by Islamic financiers as an alternative for the global ~2 billion person Muslim market for whom conventional insurance is religiously forbidden. However, MGM is in no way limited to the Muslim community. In fact, in this paper, we go so far as to argue that MGM provides a more ethical system of insuring assets and risks, void of the uncertainty and gambles posed by its conventional counterpart. We outline what fundamental properties of conventional insurance models make them prohibited in Islam (and how these very properties harm non-Muslims, as well as Muslims), followed by how MGM works to protect policyholders, and finally the roles of the various stakeholders involved in MGM.
 
 ### Prohibited Elements of Conventional Insurance
 
