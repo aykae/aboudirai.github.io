@@ -1,4 +1,16 @@
 
+- name: Ghost Protocol
+  data: FEB 2024
+  desc: A decentralized, permissionless life insurance protocol built on Ethereum.
+  tech:
+    - Solidity
+    - Chainlink Functions
+    - The Graph
+    - React.js
+  code: https://github.com/aykae/ghost
+  demo: https://www.youtube.com/watch?v=uU0g-17JhG4 
+  cover-image: "ghost.png"
+
 - name: Minicoin
   date: DEC 2023
   desc: Lightweight C++ implementation of the Bitcoin protocol.
