@@ -8,6 +8,13 @@
     padding-top: 3%;
 }
 
+.subname {
+    text-align: center;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar{
     margin: 0;
     padding: 2% 0 2% 0;
