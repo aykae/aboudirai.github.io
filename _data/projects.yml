@@ -1,3 +1,9 @@
+- name: Artificial Toolbox
+  data: AUG 2024
+  desc: AI-integrated tools for every use case.
+  tech:
+    - Next.js
+  link: https://artificialtoolbox.com 
 
 - name: Ghost Protocol
   data: FEB 2024
