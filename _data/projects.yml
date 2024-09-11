@@ -1,3 +1,10 @@
+- name: Every Single List
+  data: SEP 2024
+  desc: A directory of every single list.
+  tech:
+    - Next.js
+  link: https://everysinglelist.com
+
 - name: Artificial Toolbox
   data: AUG 2024
   desc: AI-integrated tools for every use case.
